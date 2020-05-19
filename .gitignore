@@ -1,4 +1,6 @@
 
 IK2/.vs/IK2/v15/Browse.VC.db
 IK2/.vs/IK2/v15/ipch/AutoPCH/c610aea7d64c56f2/IK2CHARACTER.ipch
-IK2/Intermediate/Build/Win64/IK2Editor/Development/Engine/SharedPCH.Engine.h.pch
+.vs/
+Binaries/
+Intermediate/

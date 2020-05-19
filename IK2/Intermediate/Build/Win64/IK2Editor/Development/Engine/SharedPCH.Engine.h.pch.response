@@ -247,11 +247,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I D:\SC\UE\Projects\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine
-/Yc"D:\SC\UE\Projects\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\SC\UE\Projects\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\SC\UE\Projects\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\SC\UE\Projects\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine
+/Yc"D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\IK2Editor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

@@ -14,6 +14,7 @@ UIkComponent::UIkComponent()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
+	
 
 	// ...
 }
@@ -59,6 +60,7 @@ FIkTraceInfo UIkComponent::IK_FootTrace(float TraceDistance, FName FootSocketNam
 		, bUseComplexCollison, ActorsIgnore, DebugTraceType, Result, true);
 
 	RetTraceInfo.ImpactNormal = Result.ImpactNormal;
+	RetTraceInfo.ImpactLocation = Result.ImpactPoint;
 	
 	/* 충돌이 일어난 경우(계단에 발이 닿은 경우) -> 닿은 곳에서 offset을 살짝 해주어 발을 위치시켜야 한다 */
 	if (Result.IsValidBlockingHit() == true)
@@ -68,12 +70,15 @@ FIkTraceInfo UIkComponent::IK_FootTrace(float TraceDistance, FName FootSocketNam
 		//offset을 더하는 데 쓰인다. 그러면 바닥 위치 살짝 위(offset더한만큼) 를 targetPoint로 잡을 수 있다.
 		float ImpactPointToTraceEndSize = (Result.ImpactPoint - Result.TraceEnd).Size();
 		RetTraceInfo.Offset = kFootOffset + (ImpactPointToTraceEndSize - TraceDistance);
+		
+		
 	}
 	/*else : 충돌이 일어나지 않은 경우 (한발만 걸쳐서 나머지 발은 허공에 떠 있는 경우) ->
 	offset을 주면 허공에서 발을 움츠리므로 부자연스러워 보인다*/
 	else
 		RetTraceInfo.Offset = 0.0f;
-	
+
+
 	return RetTraceInfo;
 }
 

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeIK2Character() {}
 	IK2_API UClass* Z_Construct_UClass_AIK2Character();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_IK2();
+	IK2_API UClass* Z_Construct_UClass_UIkComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeIK2Character() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FootIkComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FootIkComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -64,6 +69,15 @@ void EmptyLinkFunctionForGeneratedCodeIK2Character() {}
 		{ "ModuleRelativePath", "IK2Character.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIK2Character_Statics::NewProp_FootIkComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "IK" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "IK2Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIK2Character_Statics::NewProp_FootIkComponent = { "FootIkComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIK2Character, FootIkComponent), Z_Construct_UClass_UIkComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIK2Character_Statics::NewProp_FootIkComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIK2Character_Statics::NewProp_FootIkComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIK2Character_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -105,6 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeIK2Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIK2Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIK2Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIK2Character_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIK2Character_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIK2Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIK2Character_Statics::NewProp_FootIkComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIK2Character_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIK2Character_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIK2Character_Statics::NewProp_FollowCamera,
@@ -137,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeIK2Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIK2Character, 892824426);
+	IMPLEMENT_CLASS(AIK2Character, 2293992924);
 	template<> IK2_API UClass* StaticClass<AIK2Character>()
 	{
 		return AIK2Character::StaticClass();

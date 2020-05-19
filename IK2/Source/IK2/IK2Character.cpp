@@ -7,6 +7,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "IkComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -43,6 +44,8 @@ AIK2Character::AIK2Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+
+	FootIkComponent = CreateDefaultSubobject<UIkComponent>(TEXT("IK_FOOT"));
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -90,6 +93,11 @@ void AIK2Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location
 void AIK2Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
 		StopJumping();
+}
+
+void AIK2Character::Tick(float DeltaSeconds)
+{
+	FootIkComponent->IK_FootTrace(50.0f, FName("foot_l"));
 }
 
 void AIK2Character::TurnAtRate(float Rate)

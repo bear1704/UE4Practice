@@ -54,4 +54,14 @@
       <Filter>Source\IK2</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IK2\IkComponent.cpp">
+      <Filter>Source\IK2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IK2\IkComponent.h">
+      <Filter>Source\IK2</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
