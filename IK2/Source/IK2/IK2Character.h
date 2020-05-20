@@ -32,6 +32,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "IK", meta = (AllowPrivateAccess = "true"))
 		class UIkComponent* FootIkComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "IK", meta = (AllowPrivateAccess = "true"))
+		class UIK2AnimInstance* MyAnimInstance;
+
+	UPROPERTY(EditDefaultsOnly, Category = "AnimInst")
+		TSubclassOf<UAnimInstance> AnimInstance; //임시 애님인스턴스'
+
+	UPROPERTY(EditAnyWhere, Category = "AnimInst")
+		FRotator RotRot;
+	UPROPERTY(EditAnyWhere, Category = "AnimInst")
+		class UPoseableMeshComponent* PoseComp;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -60,8 +71,12 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+	
+	void BeginPlay() override;
 
 	void Tick(float DeltaSeconds) override;
+
+	void ChangeBoneRotation(FName BoneName, FRotator Rotator);
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

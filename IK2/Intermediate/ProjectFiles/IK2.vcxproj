@@ -364,7 +364,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\IK2-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\IK2\IK2AnimInstance.cpp" />
     <ClCompile Include="..\..\Source\IK2\IkComponent.cpp" />
+    <ClInclude Include="..\..\Source\IK2\IK2AnimInstance.h" />
     <ClInclude Include="..\..\Source\IK2\IkComponent.h" />
     <None Include="..\..\IK2.uproject" />
     <None Include="..\..\Source\IK2.Target.cs" />

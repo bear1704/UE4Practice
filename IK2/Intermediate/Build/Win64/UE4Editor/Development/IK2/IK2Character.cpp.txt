@@ -35,5 +35,9 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 d:\sc\ue4practice\ue4practice\ik2\source\ik2\IkComponent.h
 D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IkComponent.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/PoseableMeshComponent.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PoseableMeshComponent.generated.h
+d:\sc\ue4practice\ue4practice\ik2\source\ik2\IK2AnimInstance.h
+D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IK2AnimInstance.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h

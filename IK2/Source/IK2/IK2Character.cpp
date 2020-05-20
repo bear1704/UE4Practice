@@ -8,6 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "IkComponent.h"
+#include "Components/PoseableMeshComponent.h"
+#include "IK2AnimInstance.h"
+#include "UObject/ConstructorHelpers.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -43,11 +46,22 @@ AIK2Character::AIK2Character()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
-
-	FootIkComponent = CreateDefaultSubobject<UIkComponent>(TEXT("IK_FOOT"));
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	FootIkComponent = CreateDefaultSubobject<UIkComponent>(TEXT("IK_FOOT"));
+	PoseComp = CreateDefaultSubobject<UPoseableMeshComponent>(TEXT("PoseComp"));
+
+	static ConstructorHelpers::FClassFinder<UAnimInstance> AnimBP
+	(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'"));
+
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> MESH
+	(TEXT("SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'"));
+
+	//PoseComp->SetSkeletalMesh(MESH.Object);
+	
+	AnimInstance = AnimBP.Class;
+	
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -95,9 +109,25 @@ void AIK2Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location
 		StopJumping();
 }
 
+void AIK2Character::BeginPlay()
+{
+	Super::BeginPlay();
+	GetMesh()->SetAnimInstanceClass(AnimInstance);
+	MyAnimInstance = Cast<UIK2AnimInstance>(GetMesh()->GetAnimInstance());
+	
+}
+
 void AIK2Character::Tick(float DeltaSeconds)
 {
-	FootIkComponent->IK_FootTrace(50.0f, FName("foot_l"));
+	//FootIkComponent->IK_FootTrace(50.0f, FName("foot_l"));
+	//FootIkComponent->IK_FootTrace(50.0f, FName("foot_r"));
+	//FootIkComponent->IK_FootTrace(50.0f, FName("pelvis"));
+
+	FootIkComponent->IK_Update(DeltaSeconds);
+	//MyAnimInstance->ChangeBoneRotation(FootIkComponent->LeftFootSocketName, FootIkComponent->AnimComp.CurrentLeftFootRotation);
+	//MyAnimInstance->ChangeBoneRotation(FootIkComponent->RightFootSocketName, FootIkComponent->AnimComp.CurrentRightFootRotation);
+
+	ChangeBoneRotation(FootIkComponent->RightFootSocketName, RotRot);
 }
 
 void AIK2Character::TurnAtRate(float Rate)
@@ -139,4 +169,9 @@ void AIK2Character::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AIK2Character::ChangeBoneRotation(FName BoneName, FRotator Rotator)
+{
+	
 }

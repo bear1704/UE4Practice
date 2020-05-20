@@ -27,6 +27,10 @@ void UIkComponent::BeginPlay()
 
 	OwnerCharacter = Cast<ACharacter>(GetOwner());
 	CapsuleHalfHeight = OwnerCharacter->GetCapsuleComponent()->GetScaledCapsuleHalfHeight();
+
+	RightFootSocketName = FName("foot_r");
+	LeftFootSocketName = FName("foot_r");
+	IkTraceDistance = 50.0f;
 	
 	// ...
 	
@@ -58,8 +62,9 @@ FIkTraceInfo UIkComponent::IK_FootTrace(float TraceDistance, FName FootSocketNam
 
 	bool bResult = UKismetSystemLibrary::LineTraceSingle(GetWorld(), LineStart, LineEnd, UEngineTypes::ConvertToTraceType(ECC_Visibility)
 		, bUseComplexCollison, ActorsIgnore, DebugTraceType, Result, true);
+	//허리부터 발 아래까지 레이트레이싱을 통해 바닥이 있는지를 체크한다.
 
-	RetTraceInfo.ImpactNormal = Result.ImpactNormal;
+	RetTraceInfo.ImpactNormal = Result.ImpactNormal; //바닥의 경사도를 Normal을 측정해서 적용하기 위함(발목 돌리기)
 	RetTraceInfo.ImpactLocation = Result.ImpactPoint;
 	
 	/* 충돌이 일어난 경우(계단에 발이 닿은 경우) -> 닿은 곳에서 offset을 살짝 해주어 발을 위치시켜야 한다 */
@@ -83,6 +88,16 @@ FIkTraceInfo UIkComponent::IK_FootTrace(float TraceDistance, FName FootSocketNam
 }
 
 
+void UIkComponent::IK_Update(float Deltatime)
+{
+	FIkTraceInfo LeftFootTraceInfo = IK_FootTrace(IkTraceDistance, LeftFootSocketName);
+	FIkTraceInfo RightFootTraceInfo = IK_FootTrace(IkTraceDistance, RightFootSocketName);
+
+	IK_UpdateAnkleRotation(Deltatime, NormalToRotator(LeftFootTraceInfo.ImpactNormal), 
+		&AnimComp.CurrentLeftFootRotation, AnimComp.FeetRotateInterpolationSpeed);
+
+}
+
 // Called every frame
 void UIkComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
@@ -91,3 +106,20 @@ void UIkComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	// ...
 }
 
+FRotator UIkComponent::NormalToRotator(FVector& Norm)
+{
+	//pitch와 yaw를 구해서 rotator로 만든다. 이 방법이 제대로 된 방법인가?
+	float Yaw = UKismetMathLibrary::DegAtan2(Norm.Y, Norm.Z);
+	float Pitch = UKismetMathLibrary::DegAtan2(Norm.X, Norm.Z);
+	Pitch *= -1.0f;
+
+	//Norm.Rotation()에도 비슷한 식이 있던데 이걸 써도 괜찮을까
+	
+	return FRotator(Pitch, 0.0f, Yaw);
+}
+
+void UIkComponent::IK_UpdateAnkleRotation(float DeltaTime, FRotator TargetRotater, FRotator* CurrentRotator, float InterpSpeed)
+{
+	FRotator Interpolation = UKismetMathLibrary::RInterpTo(*CurrentRotator, TargetRotater, DeltaTime, InterpSpeed);
+	*CurrentRotator = Interpolation;
+}

@@ -1,4 +1,4 @@
-﻿Log file open, 05/19/20 19:07:56
+﻿Log file open, 05/20/20 19:34:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: IK2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.296190
+LogStats: Stats thread started at 0.288180
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,2173 +157,312 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.05.19-10.07.57:375][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.05.19-10.07.57:376][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.05.19-10.07.57:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:378][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:390][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:390][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.19-10.07.57:390][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.05.19-10.07.57:390][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:390][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.05.19-10.07.57:390][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:390][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.19-10.07.57:390][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.19-10.07.57:391][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.05.19-10.07.57:392][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.05.19-10.07.57:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.05.19-10.07.57:394][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.05.19-10.07.57:395][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.05.19-10.07.57:395][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.19-10.07.57:395][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.05.19-10.07.57:400][  0]LogHAL: Display: Platform has ~ 16 GB [17144270848 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.05.19-10.07.57:400][  0]LogInit: Going up to parent DeviceProfile []
-[2020.05.19-10.07.57:401][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2020.05.19-10.07.57:401][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2020.05.19-10.07.57:402][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2020.05.19-10.07.57:403][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2020.05.19-10.07.57:404][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2020.05.19-10.07.57:405][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2020.05.19-10.07.57:406][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:406][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2020.05.19-10.07.57:406][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.19-10.07.57:406][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.19-10.07.57:406][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.19-10.07.57:406][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2020.05.19-10.07.57:408][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2020.05.19-10.07.57:409][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2020.05.19-10.07.57:412][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2020.05.19-10.07.57:412][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2020.05.19-10.07.57:412][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2020.05.19-10.07.57:413][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2020.05.19-10.07.57:414][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2020.05.19-10.07.57:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.19-10.07.57:417][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2020.05.19-10.07.57:418][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2020.05.19-10.07.57:418][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
-[2020.05.19-10.07.57:418][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2020.05.19-10.07.57:418][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2020.05.19-10.07.57:418][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.05.19-10.07.57:419][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.05.19-10.07.57:419][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.05.19-10.07.57:419][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
-[2020.05.19-10.07.57:421][  0]LogInit: Computer: DESKTOP-4SDQ2H7
-[2020.05.19-10.07.57:421][  0]LogInit: User: kgca009
-[2020.05.19-10.07.57:422][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.05.19-10.07.57:422][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.05.19-10.07.57:423][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.05.19-10.07.57:423][  0]LogMemory: Platform Memory Stats for Windows
-[2020.05.19-10.07.57:423][  0]LogMemory: Process Physical Memory: 101.74 MB used, 101.74 MB peak
-[2020.05.19-10.07.57:423][  0]LogMemory: Process Virtual Memory: 89.02 MB used, 89.02 MB peak
-[2020.05.19-10.07.57:424][  0]LogMemory: Physical Memory: 7824.84 MB used,  8525.21 MB free, 16350.05 MB total
-[2020.05.19-10.07.57:424][  0]LogMemory: Virtual Memory: 4648.05 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2020.05.19-10.07.57:442][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.05.19-10.07.57:610][  0]LogInit: Using OS detected language (ko-KR).
-[2020.05.19-10.07.57:610][  0]LogInit: Using OS detected locale (ko-KR).
-[2020.05.19-10.07.57:611][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2020.05.19-10.07.57:772][  0]LogInit: Setting process to per monitor DPI aware
-[2020.05.19-10.07.57:910][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.05.19-10.07.57:910][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.05.19-10.07.58:240][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.19-10.07.58:241][  0]LogD3D11RHI: D3D11 adapters:
-[2020.05.19-10.07.58:388][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
-[2020.05.19-10.07.58:388][  0]LogD3D11RHI:       1989/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.05.19-10.07.58:400][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.05.19-10.07.58:400][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.05.19-10.07.58:400][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.05.19-10.07.58:409][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.05.19-10.07.58:409][  0]LogD3D11RHI:     GPU DeviceId: 0xf02 (for the marketing name, search the web for "GPU Device Id")
-[2020.05.19-10.07.58:409][  0]LogWindows: EnumDisplayDevices:
-[2020.05.19-10.07.58:410][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:0 D:1)
-[2020.05.19-10.07.58:411][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:1 D:1)
-[2020.05.19-10.07.58:413][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2020.05.19-10.07.58:413][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
-[2020.05.19-10.07.58:413][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2020.05.19-10.07.58:413][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2020.05.19-10.07.58:413][  0]LogRHI: Texture pool is 1392 MB (70% of 1989 MB)
-[2020.05.19-10.07.58:483][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2020.05.19-10.07.58:483][  0]LogD3D11RHI: Async texture creation enabled
-[2020.05.19-10.07.58:503][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.05.19-10.07.59:245][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.05.19-10.07.59:269][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.05.19-10.07.59:294][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.05.19-10.07.59:319][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.05.19-10.07.59:347][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.05.19-10.07.59:376][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.05.19-10.07.59:405][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.05.19-10.07.59:436][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.05.19-10.07.59:457][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.05.19-10.07.59:515][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.05.19-10.07.59:518][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.05.19-10.07.59:519][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.05.19-10.07.59:520][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.05.19-10.07.59:521][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.05.19-10.07.59:521][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.05.19-10.07.59:521][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.05.19-10.07.59:521][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.05.19-10.07.59:522][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.05.19-10.07.59:523][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.05.19-10.07.59:523][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.05.19-10.07.59:524][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.05.19-10.07.59:524][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.05.19-10.07.59:532][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.05.19-10.07.59:607][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.05.19-10.07.59:607][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.05.19-10.07.59:634][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.05.19-10.07.59:634][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.05.19-10.07.59:650][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.05.19-10.07.59:666][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.05.19-10.07.59:684][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.05.19-10.07.59:701][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.05.19-10.07.59:751][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.05.19-10.07.59:751][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.05.19-10.07.59:751][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.05.19-10.07.59:805][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.05.19-10.08.00:095][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/SC/UE4Practice/UE4Practice/IK2/Intermediate/Shaders/WorkingDirectory/15796/).
-[2020.05.19-10.08.00:096][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kgca009/AppData/Local/Temp/UnrealShaderWorkingDir/DDA23BF94BB39BD7E7D56FBBE96C4DFE/'.
-[2020.05.19-10.08.00:104][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2020.05.19-10.08.01:193][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.05.19-10.08.01:275][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/kgca009/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.05.19-10.08.01:275][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kgca009/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.05.19-10.08.01:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SC/UE4Practice/UE4Practice/IK2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.05.19-10.08.01:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.05.19-10.08.01:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SC/UE4Practice/UE4Practice/IK2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.19-10.08.01:276][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.05.19-10.08.01:293][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.05.19-10.08.01:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.19-10.08.01:293][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.05.19-10.08.01:297][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kgca009/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.05.19-10.08.01:297][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.05.19-10.08.01:297][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.05.19-10.08.01:334][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.05.19-10.08.01:338][  0]LogSlate: Using FreeType 2.6.0
-[2020.05.19-10.08.01:339][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.05.19-10.08.01:445][  0]LogAssetRegistry: FAssetRegistry took 0.0054 seconds to start up
-[2020.05.19-10.08.01:918][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.19-10.08.02:262][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.05.19-10.08.02:262][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.05.19-10.08.02:263][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.05.19-10.08.02:263][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.05.19-10.08.02:263][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.05.19-10.08.02:277][  0]LogNetVersion: IK2 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4186048603)
-[2020.05.19-10.08.02:934][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.070186 seconds
-[2020.05.19-10.08.02:944][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.05.19-10.08.02:944][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.05.19-10.08.02:944][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.05.19-10.08.05:287][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.05.19-10.08.05:299][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.05.19-10.08.05:803][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2020.05.19-10.08.05:804][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2020.05.19-10.08.05:827][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2020.05.19-10.08.05:838][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2020.05.19-10.08.06:371][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.05.19-10.08.06:930][  0]LogOcInput: OculusInput pre-init called
-[2020.05.19-10.08.06:955][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.05.19-10.08.06:955][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.05.19-10.08.07:143][  0]LogEngine: Initializing Engine...
-[2020.05.19-10.08.07:145][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.19-10.08.07:146][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.05.19-10.08.07:537][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.05.19-10.08.07:578][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.05.19-10.08.07:678][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.05.19-10.08.07:757][  0]LogInit: FAudioDevice initialized.
-[2020.05.19-10.08.07:757][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.05.19-10.08.07:977][  0]LogDerivedDataCache: Saved boot cache 0.22s 77MB C:/Users/kgca009/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.05.19-10.08.07:983][  0]LogInit: Texture streaming: Enabled
-[2020.05.19-10.08.08:050][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.05.19-10.08.08:050][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.05.19-10.08.08:054][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.05.19-10.08.08:159][  0]LogInit: Transaction tracking system initialized
-[2020.05.19-10.08.08:289][  0]BlueprintLog: New page: 에디터 로드
-[2020.05.19-10.08.08:614][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2020.05.19-10.08.10:010][  0]LogFileCache: Scanning file cache for directory 'D:/SC/UE4Practice/UE4Practice/IK2/Content/' took 0.00s
-[2020.05.19-10.08.10:010][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.05.19-10.08.10:010][  0]LogCook: Display: Mobile HDR setting 1
-[2020.05.19-10.08.10:737][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2020.05.19-10.08.10:738][  0]Cmd: MAP LOAD FILE="D:/SC/UE4Practice/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.05.19-10.08.10:738][  0]LightingResults: New page: 라이팅 빌드
-[2020.05.19-10.08.10:745][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.05.19-10.08.10:745][  0]MapCheck: New page: 맵 체크
-[2020.05.19-10.08.10:745][  0]LightingResults: New page: 라이팅 빌드
-[2020.05.19-10.08.10:832][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
-[2020.05.19-10.08.10:986][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.05.19-10.08.10:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.05.19-10.08.11:034][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
-[2020.05.19-10.08.11:037][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.05.19-10.08.11:038][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.129ms.
-[2020.05.19-10.08.11:038][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.300
-[2020.05.19-10.08.11:243][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.19-10.08.11:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.19-10.08.11:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.19-10.08.11:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.19-10.08.11:306][  0]LogCollectionManager: Loaded 0 collections in 0.004843 seconds
-[2020.05.19-10.08.11:326][  0]LogFileCache: Scanning file cache for directory 'D:/SC/UE4Practice/UE4Practice/IK2/Saved/Collections/' took 0.00s
-[2020.05.19-10.08.11:326][  0]LogFileCache: Scanning file cache for directory 'D:/SC/UE4Practice/UE4Practice/IK2/Content/Developers/kgca009/Collections/' took 0.00s
-[2020.05.19-10.08.11:326][  0]LogFileCache: Scanning file cache for directory 'D:/SC/UE4Practice/UE4Practice/IK2/Content/Collections/' took 0.00s
-[2020.05.19-10.08.11:326][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2020.05.19-10.08.11:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2866 classes and 682 folders.
-[2020.05.19-10.08.11:357][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.05.19-10.08.11:443][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.05.19-10.08.11:467][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2020.05.19-10.08.11:601][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.05.19-10.08.11:612][  0]LogSlate: Took 0.002746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2020.05.19-10.08.11:620][  0]LogSlate: Took 0.002907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2020.05.19-10.08.11:628][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.05.19-10.08.11:635][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.05.19-10.08.11:746][  0]LogRenderer: Reallocating scene render targets to support 1128x588 Format 9 NumSamples 1 (Frame:1).
-[2020.05.19-10.08.11:810][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.05.19-10.08.12:374][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.05.19-10.08.12:375][  0]LogLoad: (Engine Initialization) Total time: 18.25 seconds
-[2020.05.19-10.08.12:375][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.05.19-10.08.12:442][  0]LogContentStreaming: Texture pool size now 600 MB
-[2020.05.19-10.08.12:509][  1]LogAssetRegistry: Asset discovery search completed in 11.0674 seconds
-[2020.05.19-10.08.12:515][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2020.05.19-10.08.12:516][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000224 seconds (updated 0 objects)
-[2020.05.19-10.08.39:612][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.05.19-10.08.39:677][847]LogTemp: Repeating last play command: 선택된 뷰포트
-[2020.05.19-10.08.39:696][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.05.19-10.08.39:697][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.05.19-10.08.39:697][847]PIE: New page: PIE 세션: ThirdPersonExampleMap (2020. 5. 20. 오전 4:08:39)
-[2020.05.19-10.08.39:702][847]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.05.19-10.08.39:709][847]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.05.19-10.08.39:733][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023125s)
-[2020.05.19-10.08.39:735][847]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.05.19-10.08.39:736][847]LogPlayLevel: PIE: World Init took: (0.002259s)
-[2020.05.19-10.08.39:736][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026693s)
-[2020.05.19-10.08.39:768][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2020.05.19-10.08.39:847][847]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.05.19-10.08.39:884][847]LogInit: FAudioDevice initialized.
-[2020.05.19-10.08.39:903][847]LogLoad: Game class is 'IK2GameMode'
-[2020.05.19-10.08.39:906][847]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.19-19.08.39
-[2020.05.19-10.08.39:907][847]LogWorld: Bringing up level for play took: 0.002907
-[2020.05.19-10.08.39:907][847]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.05.19-10.08.39:924][847]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.05.19-10.08.39:925][847]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.975
-[2020.05.19-10.08.39:926][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.05.19-10.08.39:926][847]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.39:926][847]LogTemp: Pos : -536870912 536870912 -1073741824
-[2020.05.19-10.08.39:948][848]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.39:948][848]LogTemp: Pos : -536870912 536870912 -1073741824
-[2020.05.19-10.08.39:995][849]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.39:995][849]LogTemp: Pos : -536870912 536870912 -1073741824
-[2020.05.19-10.08.40:060][850]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:060][850]LogTemp: Pos : -2147483648 -1610612736 -1073741824
-[2020.05.19-10.08.40:111][851]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:111][851]LogTemp: Pos : 1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.40:137][852]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:137][852]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.40:162][853]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:162][853]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.40:188][854]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:188][854]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.40:212][855]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:213][855]LogTemp: Pos : 536870912 0 -1073741824
-[2020.05.19-10.08.40:237][856]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:238][856]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.40:262][857]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:262][857]LogTemp: Pos : 1610612736 1610612736 -1073741824
-[2020.05.19-10.08.40:285][858]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:286][858]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.40:309][859]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:310][859]LogTemp: Pos : -2147483648 1610612736 -1073741824
-[2020.05.19-10.08.40:334][860]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:338][860]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.40:359][861]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:359][861]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.40:384][862]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:385][862]LogTemp: Pos : -1073741824 -536870912 -1073741824
-[2020.05.19-10.08.40:407][863]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:407][863]LogTemp: Pos : -536870912 -2147483648 -1073741824
-[2020.05.19-10.08.40:431][864]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:431][864]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.40:455][865]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:455][865]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.40:479][866]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:480][866]LogTemp: Pos : 1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.40:505][867]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:505][867]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.40:529][868]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:530][868]LogTemp: Pos : -536870912 -2147483648 -1073741824
-[2020.05.19-10.08.40:557][869]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:558][869]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.40:582][870]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:584][870]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.40:606][871]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:609][871]LogTemp: Pos : 536870912 1073741824 -1073741824
-[2020.05.19-10.08.40:630][872]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:630][872]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.40:655][873]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:655][873]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.40:679][874]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:679][874]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.40:703][875]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:704][875]LogTemp: Pos : -2147483648 1610612736 -1073741824
-[2020.05.19-10.08.40:730][876]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:730][876]LogTemp: Pos : 1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.40:758][877]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:759][877]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.40:783][878]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:784][878]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.40:808][879]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:808][879]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.40:831][880]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:831][880]LogTemp: Pos : 1073741824 -536870912 -1073741824
-[2020.05.19-10.08.40:855][881]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:855][881]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.40:879][882]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:880][882]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.40:904][883]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:904][883]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.40:928][884]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:928][884]LogTemp: Pos : 1610612736 -1073741824 -1073741824
-[2020.05.19-10.08.40:953][885]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:954][885]LogTemp: Pos : 536870912 -2147483648 -1073741824
-[2020.05.19-10.08.40:977][886]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.40:977][886]LogTemp: Pos : -1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.41:001][887]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:002][887]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.41:025][888]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:025][888]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.41:048][889]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:049][889]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.41:074][890]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:075][890]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.41:097][891]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:098][891]LogTemp: Pos : 0 -536870912 -1073741824
-[2020.05.19-10.08.41:120][892]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:121][892]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.41:144][893]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:146][893]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.41:169][894]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:169][894]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.41:192][895]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:192][895]LogTemp: Pos : -1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.41:216][896]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:217][896]LogTemp: Pos : 1073741824 536870912 -1073741824
-[2020.05.19-10.08.41:239][897]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:239][897]LogTemp: Pos : -1073741824 1610612736 -1073741824
-[2020.05.19-10.08.41:263][898]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:264][898]LogTemp: Pos : -1610612736 0 -1073741824
-[2020.05.19-10.08.41:286][899]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:286][899]LogTemp: Pos : -2147483648 536870912 -1073741824
-[2020.05.19-10.08.41:310][900]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:311][900]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.41:335][901]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:336][901]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.41:359][902]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:359][902]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.41:382][903]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:384][903]LogTemp: Pos : -1610612736 -1610612736 -1073741824
-[2020.05.19-10.08.41:407][904]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:407][904]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.41:431][905]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:431][905]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.41:457][906]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:457][906]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.41:480][907]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:480][907]LogTemp: Pos : 1610612736 1610612736 -1073741824
-[2020.05.19-10.08.41:504][908]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:505][908]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.41:527][909]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:527][909]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.41:550][910]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:550][910]LogTemp: Pos : 0 -536870912 -1073741824
-[2020.05.19-10.08.41:572][911]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:573][911]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.41:596][912]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:597][912]LogTemp: Pos : -2147483648 -1610612736 -1073741824
-[2020.05.19-10.08.41:619][913]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:619][913]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.41:643][914]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:644][914]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.41:665][915]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:669][915]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.41:689][916]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:689][916]LogTemp: Pos : -2147483648 -1610612736 -1073741824
-[2020.05.19-10.08.41:712][917]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:712][917]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.41:735][918]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:736][918]LogTemp: Pos : 536870912 1073741824 -1073741824
-[2020.05.19-10.08.41:759][919]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:759][919]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.41:782][920]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:782][920]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.41:804][921]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:805][921]LogTemp: Pos : -1610612736 -1073741824 -1073741824
-[2020.05.19-10.08.41:829][922]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:829][922]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.41:851][923]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:853][923]LogTemp: Pos : -536870912 0 -1073741824
-[2020.05.19-10.08.41:875][924]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:875][924]LogTemp: Pos : 0 536870912 -1073741824
-[2020.05.19-10.08.41:898][925]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:898][925]LogTemp: Pos : 536870912 -536870912 -1073741824
-[2020.05.19-10.08.41:922][926]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:925][926]LogTemp: Pos : 536870912 -536870912 -1073741824
-[2020.05.19-10.08.41:946][927]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:946][927]LogTemp: Pos : 1610612736 -536870912 -1073741824
-[2020.05.19-10.08.41:969][928]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:969][928]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.41:992][929]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.41:993][929]LogTemp: Pos : -536870912 -1073741824 -1073741824
-[2020.05.19-10.08.42:016][930]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:017][930]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.42:039][931]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:039][931]LogTemp: Pos : 1610612736 -1073741824 -1073741824
-[2020.05.19-10.08.42:064][932]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:065][932]LogTemp: Pos : 536870912 -1073741824 -1073741824
-[2020.05.19-10.08.42:086][933]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:086][933]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.42:109][934]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:109][934]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.42:133][935]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:134][935]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.42:156][936]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:157][936]LogTemp: Pos : 1610612736 0 -1073741824
-[2020.05.19-10.08.42:179][937]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:179][937]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.42:202][938]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:203][938]LogTemp: Pos : -536870912 -2147483648 -1073741824
-[2020.05.19-10.08.42:225][939]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:225][939]LogTemp: Pos : 1073741824 536870912 -1073741824
-[2020.05.19-10.08.42:248][940]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:249][940]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.42:272][941]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:272][941]LogTemp: Pos : -1610612736 1073741824 -1073741824
-[2020.05.19-10.08.42:296][942]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:296][942]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.42:320][943]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:320][943]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.42:344][944]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:344][944]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.42:367][945]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:367][945]LogTemp: Pos : 0 536870912 -1073741824
-[2020.05.19-10.08.42:391][946]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:392][946]LogTemp: Pos : -536870912 -2147483648 -1073741824
-[2020.05.19-10.08.42:415][947]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:418][947]LogTemp: Pos : 536870912 -2147483648 -1073741824
-[2020.05.19-10.08.42:440][948]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:440][948]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.42:464][949]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:465][949]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.42:488][950]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:488][950]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.42:510][951]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:511][951]LogTemp: Pos : 1073741824 1610612736 -1073741824
-[2020.05.19-10.08.42:535][952]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:535][952]LogTemp: Pos : -1610612736 1073741824 -1073741824
-[2020.05.19-10.08.42:559][953]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:560][953]LogTemp: Pos : 1610612736 0 -1073741824
-[2020.05.19-10.08.42:583][954]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:584][954]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.42:606][955]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:606][955]LogTemp: Pos : 536870912 1073741824 -1073741824
-[2020.05.19-10.08.42:630][956]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:630][956]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.42:654][957]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:654][957]LogTemp: Pos : -536870912 1073741824 -1073741824
-[2020.05.19-10.08.42:676][958]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:677][958]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.42:701][959]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:705][959]LogTemp: Pos : -536870912 536870912 -1073741824
-[2020.05.19-10.08.42:724][960]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:724][960]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.42:748][961]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:748][961]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.42:772][962]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:772][962]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.42:794][963]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:795][963]LogTemp: Pos : 536870912 -1073741824 -1073741824
-[2020.05.19-10.08.42:818][964]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:818][964]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.42:841][965]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:842][965]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.42:865][966]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:866][966]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.42:889][967]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:895][967]LogTemp: Pos : -2147483648 1610612736 -1073741824
-[2020.05.19-10.08.42:912][968]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:914][968]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.42:937][969]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:938][969]LogTemp: Pos : 536870912 1610612736 -1073741824
-[2020.05.19-10.08.42:961][970]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:962][970]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.42:983][971]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.42:984][971]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.43:007][972]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:007][972]LogTemp: Pos : 1073741824 1073741824 -1073741824
-[2020.05.19-10.08.43:030][973]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:030][973]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.43:054][974]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:054][974]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.43:078][975]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:079][975]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.43:101][976]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:102][976]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.43:124][977]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:126][977]LogTemp: Pos : -1610612736 1073741824 -1073741824
-[2020.05.19-10.08.43:177][978]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:177][978]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.43:275][979]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:275][979]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.43:342][980]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:348][980]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.43:385][981]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:386][981]LogTemp: Pos : 1610612736 0 -1073741824
-[2020.05.19-10.08.43:403][982]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:403][982]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.43:417][983]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:418][983]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.43:434][984]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:434][984]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.43:453][985]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:453][985]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.43:470][986]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:470][986]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.43:491][987]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:491][987]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.43:516][988]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:518][988]LogTemp: Pos : -1610612736 -536870912 -1073741824
-[2020.05.19-10.08.43:538][989]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:538][989]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.43:563][990]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:563][990]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.43:597][991]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:597][991]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.43:615][992]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:615][992]LogTemp: Pos : -1610612736 536870912 -1073741824
-[2020.05.19-10.08.43:662][993]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:662][993]LogTemp: Pos : -1610612736 1073741824 -1073741824
-[2020.05.19-10.08.43:680][994]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:680][994]LogTemp: Pos : 536870912 0 -1073741824
-[2020.05.19-10.08.43:703][995]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:703][995]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.43:720][996]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:722][996]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.43:754][997]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:755][997]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.43:775][998]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:777][998]LogTemp: Pos : -1610612736 -1610612736 -1073741824
-[2020.05.19-10.08.43:797][999]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:798][999]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.43:836][  0]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:837][  0]LogTemp: Pos : 1073741824 1610612736 -1073741824
-[2020.05.19-10.08.43:855][  1]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:855][  1]LogTemp: Pos : 1610612736 1073741824 -1073741824
-[2020.05.19-10.08.43:876][  2]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:877][  2]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.43:894][  3]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:894][  3]LogTemp: Pos : -536870912 1073741824 -1073741824
-[2020.05.19-10.08.43:912][  4]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:913][  4]LogTemp: Pos : -536870912 536870912 -1073741824
-[2020.05.19-10.08.43:936][  5]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:936][  5]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.43:957][  6]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:963][  6]LogTemp: Pos : -1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.43:982][  7]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.43:983][  7]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.44:007][  8]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:007][  8]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.44:035][  9]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:037][  9]LogTemp: Pos : -2147483648 536870912 -1073741824
-[2020.05.19-10.08.44:055][ 10]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:055][ 10]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.44:077][ 11]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:077][ 11]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.44:095][ 12]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:095][ 12]LogTemp: Pos : -1073741824 -536870912 -1073741824
-[2020.05.19-10.08.44:117][ 13]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:117][ 13]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.44:138][ 14]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:138][ 14]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.44:160][ 15]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:160][ 15]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.44:184][ 16]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:184][ 16]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.44:208][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.05.19-10.08.44:211][ 17]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:212][ 17]LogTemp: Pos : -1073741824 536870912 -1073741824
-[2020.05.19-10.08.44:217][ 17]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.05.19-10.08.44:277][ 17]LogSlate: Took 0.002342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
-[2020.05.19-10.08.44:328][ 18]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:328][ 18]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.44:337][ 19]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:338][ 19]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.44:345][ 20]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:346][ 20]LogTemp: Pos : 0 536870912 -1073741824
-[2020.05.19-10.08.44:365][ 21]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:366][ 21]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.44:393][ 22]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:393][ 22]LogTemp: Pos : 1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.44:414][ 23]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:414][ 23]LogTemp: Pos : -1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.44:437][ 24]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:437][ 24]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.44:460][ 25]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:461][ 25]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.44:484][ 26]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:485][ 26]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.44:507][ 27]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:508][ 27]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.44:531][ 28]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:532][ 28]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.44:555][ 29]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:555][ 29]LogTemp: Pos : -1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.44:578][ 30]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:578][ 30]LogTemp: Pos : 536870912 1073741824 -1073741824
-[2020.05.19-10.08.44:601][ 31]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:601][ 31]LogTemp: Pos : 536870912 0 -1073741824
-[2020.05.19-10.08.44:627][ 32]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:627][ 32]LogTemp: Pos : 536870912 -1073741824 -1073741824
-[2020.05.19-10.08.44:649][ 33]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:649][ 33]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.44:671][ 34]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:672][ 34]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.44:696][ 35]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:696][ 35]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.44:721][ 36]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:721][ 36]LogTemp: Pos : -2147483648 1610612736 -1073741824
-[2020.05.19-10.08.44:743][ 37]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:743][ 37]LogTemp: Pos : -1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.44:767][ 38]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:767][ 38]LogTemp: Pos : -2147483648 -536870912 -1073741824
-[2020.05.19-10.08.44:792][ 39]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:793][ 39]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.44:815][ 40]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:816][ 40]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.44:839][ 41]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:840][ 41]LogTemp: Pos : 1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.44:863][ 42]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:869][ 42]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.44:888][ 43]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:889][ 43]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.44:912][ 44]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:912][ 44]LogTemp: Pos : -1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.44:935][ 45]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:936][ 45]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.44:959][ 46]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:959][ 46]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.44:982][ 47]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.44:984][ 47]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.45:006][ 48]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:006][ 48]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.08.45:031][ 49]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:031][ 49]LogTemp: Pos : -536870912 0 -1073741824
-[2020.05.19-10.08.45:055][ 50]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:055][ 50]LogTemp: Pos : -1073741824 -1073741824 0
-[2020.05.19-10.08.45:078][ 51]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:079][ 51]LogTemp: Pos : 1073741824 -2147483648 1610612736
-[2020.05.19-10.08.45:103][ 52]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:104][ 52]LogTemp: Pos : 0 -1073741824 -1610612736
-[2020.05.19-10.08.45:126][ 53]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:127][ 53]LogTemp: Pos : 1610612736 1073741824 -1610612736
-[2020.05.19-10.08.45:151][ 54]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:151][ 54]LogTemp: Pos : -1073741824 0 536870912
-[2020.05.19-10.08.45:175][ 55]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:175][ 55]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.45:199][ 56]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:200][ 56]LogTemp: Pos : 536870912 1610612736 1610612736
-[2020.05.19-10.08.45:224][ 57]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:225][ 57]LogTemp: Pos : -1073741824 1073741824 -536870912
-[2020.05.19-10.08.45:247][ 58]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:248][ 58]LogTemp: Pos : -1073741824 536870912 1610612736
-[2020.05.19-10.08.45:271][ 59]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:272][ 59]LogTemp: Pos : -2147483648 0 -1610612736
-[2020.05.19-10.08.45:296][ 60]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:303][ 60]LogTemp: Pos : -2147483648 -2147483648 -1610612736
-[2020.05.19-10.08.45:321][ 61]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:321][ 61]LogTemp: Pos : 1610612736 -1073741824 0
-[2020.05.19-10.08.45:344][ 62]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:344][ 62]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.45:368][ 63]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:369][ 63]LogTemp: Pos : -1073741824 -1073741824 536870912
-[2020.05.19-10.08.45:392][ 64]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:393][ 64]LogTemp: Pos : -536870912 0 536870912
-[2020.05.19-10.08.45:416][ 65]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:418][ 65]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.45:440][ 66]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:440][ 66]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.45:464][ 67]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:465][ 67]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.45:488][ 68]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:488][ 68]LogTemp: Pos : -1610612736 1610612736 0
-[2020.05.19-10.08.45:512][ 69]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:513][ 69]LogTemp: Pos : 1073741824 -2147483648 -2147483648
-[2020.05.19-10.08.45:539][ 70]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:539][ 70]LogTemp: Pos : 0 -536870912 -1073741824
-[2020.05.19-10.08.45:562][ 71]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:563][ 71]LogTemp: Pos : 1073741824 0 1073741824
-[2020.05.19-10.08.45:586][ 72]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:586][ 72]LogTemp: Pos : -2147483648 -2147483648 536870912
-[2020.05.19-10.08.45:610][ 73]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:611][ 73]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.08.45:635][ 74]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:635][ 74]LogTemp: Pos : 0 536870912 536870912
-[2020.05.19-10.08.45:658][ 75]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:658][ 75]LogTemp: Pos : -1073741824 -1073741824 1073741824
-[2020.05.19-10.08.45:683][ 76]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:683][ 76]LogTemp: Pos : -2147483648 536870912 0
-[2020.05.19-10.08.45:707][ 77]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:707][ 77]LogTemp: Pos : -2147483648 -1073741824 1073741824
-[2020.05.19-10.08.45:732][ 78]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:732][ 78]LogTemp: Pos : -1610612736 -536870912 536870912
-[2020.05.19-10.08.45:755][ 79]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:756][ 79]LogTemp: Pos : -2147483648 -1610612736 1610612736
-[2020.05.19-10.08.45:780][ 80]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:780][ 80]LogTemp: Pos : -1073741824 -2147483648 -536870912
-[2020.05.19-10.08.45:805][ 81]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:806][ 81]LogTemp: Pos : 536870912 -1073741824 0
-[2020.05.19-10.08.45:830][ 82]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:830][ 82]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.45:854][ 83]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:854][ 83]LogTemp: Pos : 1073741824 -2147483648 0
-[2020.05.19-10.08.45:877][ 84]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:877][ 84]LogTemp: Pos : -536870912 -1073741824 0
-[2020.05.19-10.08.45:902][ 85]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:907][ 85]LogTemp: Pos : -1073741824 0 0
-[2020.05.19-10.08.45:927][ 86]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:928][ 86]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.45:950][ 87]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:950][ 87]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.45:974][ 88]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:974][ 88]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.45:998][ 89]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.45:999][ 89]LogTemp: Pos : -1610612736 -2147483648 0
-[2020.05.19-10.08.46:022][ 90]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:022][ 90]LogTemp: Pos : -536870912 0 0
-[2020.05.19-10.08.46:046][ 91]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:047][ 91]LogTemp: Pos : -1073741824 1610612736 0
-[2020.05.19-10.08.46:071][ 92]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:071][ 92]LogTemp: Pos : -1073741824 -536870912 0
-[2020.05.19-10.08.46:096][ 93]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:096][ 93]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.46:120][ 94]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:120][ 94]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.46:144][ 95]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:144][ 95]LogTemp: Pos : 1610612736 536870912 0
-[2020.05.19-10.08.46:168][ 96]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:168][ 96]LogTemp: Pos : -2147483648 -1073741824 0
-[2020.05.19-10.08.46:192][ 97]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:192][ 97]LogTemp: Pos : -536870912 0 0
-[2020.05.19-10.08.46:215][ 98]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:215][ 98]LogTemp: Pos : -1073741824 536870912 0
-[2020.05.19-10.08.46:239][ 99]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:239][ 99]LogTemp: Pos : -1610612736 0 0
-[2020.05.19-10.08.46:263][100]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:263][100]LogTemp: Pos : 536870912 0 0
-[2020.05.19-10.08.46:286][101]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:287][101]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.46:309][102]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:309][102]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.46:334][103]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:334][103]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.46:357][104]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:359][104]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.46:384][105]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:384][105]LogTemp: Pos : -1073741824 -536870912 0
-[2020.05.19-10.08.46:405][106]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:405][106]LogTemp: Pos : -1610612736 -2147483648 0
-[2020.05.19-10.08.46:429][107]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:429][107]LogTemp: Pos : 0 -1610612736 0
-[2020.05.19-10.08.46:453][108]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:455][108]LogTemp: Pos : -2147483648 -1073741824 0
-[2020.05.19-10.08.46:476][109]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:477][109]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.46:500][110]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:501][110]LogTemp: Pos : 1610612736 -2147483648 0
-[2020.05.19-10.08.46:523][111]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:524][111]LogTemp: Pos : -2147483648 -536870912 0
-[2020.05.19-10.08.46:547][112]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:548][112]LogTemp: Pos : -536870912 -2147483648 0
-[2020.05.19-10.08.46:571][113]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:578][113]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.46:595][114]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:596][114]LogTemp: Pos : -1610612736 -536870912 0
-[2020.05.19-10.08.46:618][115]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:622][115]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.46:642][116]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:644][116]LogTemp: Pos : -536870912 -1610612736 0
-[2020.05.19-10.08.46:665][117]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:669][117]LogTemp: Pos : -1073741824 -1073741824 0
-[2020.05.19-10.08.46:689][118]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:690][118]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.46:713][119]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:713][119]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.46:737][120]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:737][120]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.46:760][121]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:761][121]LogTemp: Pos : 1610612736 1610612736 0
-[2020.05.19-10.08.46:783][122]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:784][122]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.46:807][123]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:807][123]LogTemp: Pos : -1073741824 -1610612736 0
-[2020.05.19-10.08.46:830][124]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:830][124]LogTemp: Pos : -1073741824 -536870912 0
-[2020.05.19-10.08.46:854][125]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:855][125]LogTemp: Pos : -2147483648 1610612736 0
-[2020.05.19-10.08.46:877][126]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:877][126]LogTemp: Pos : -1073741824 -536870912 0
-[2020.05.19-10.08.46:901][127]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:901][127]LogTemp: Pos : 1073741824 1610612736 0
-[2020.05.19-10.08.46:925][128]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:925][128]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.46:948][129]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:948][129]LogTemp: Pos : 1610612736 1610612736 0
-[2020.05.19-10.08.46:972][130]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:973][130]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.46:995][131]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.46:995][131]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.47:019][132]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:020][132]LogTemp: Pos : 1073741824 -1610612736 0
-[2020.05.19-10.08.47:043][133]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:043][133]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.47:066][134]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:066][134]LogTemp: Pos : -1610612736 1073741824 0
-[2020.05.19-10.08.47:089][135]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:090][135]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.47:113][136]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:114][136]LogTemp: Pos : -1610612736 -536870912 0
-[2020.05.19-10.08.47:138][137]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:138][137]LogTemp: Pos : -1073741824 0 0
-[2020.05.19-10.08.47:161][138]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:161][138]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.47:184][139]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:185][139]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.47:208][140]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:208][140]LogTemp: Pos : -536870912 -1073741824 0
-[2020.05.19-10.08.47:231][141]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:232][141]LogTemp: Pos : -536870912 -1073741824 0
-[2020.05.19-10.08.47:255][142]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:255][142]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.47:278][143]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:278][143]LogTemp: Pos : 1073741824 -536870912 0
-[2020.05.19-10.08.47:302][144]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:303][144]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.47:325][145]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:325][145]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.47:349][146]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:349][146]LogTemp: Pos : -1610612736 -536870912 -536870912
-[2020.05.19-10.08.47:373][147]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:373][147]LogTemp: Pos : -1073741824 1073741824 -536870912
-[2020.05.19-10.08.47:397][148]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:398][148]LogTemp: Pos : -1073741824 -1610612736 -536870912
-[2020.05.19-10.08.47:422][149]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:422][149]LogTemp: Pos : 0 1610612736 -536870912
-[2020.05.19-10.08.47:446][150]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:446][150]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.47:471][151]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:471][151]LogTemp: Pos : 536870912 -1073741824 -536870912
-[2020.05.19-10.08.47:495][152]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:495][152]LogTemp: Pos : 1073741824 0 -536870912
-[2020.05.19-10.08.47:519][153]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:519][153]LogTemp: Pos : 0 0 -536870912
-[2020.05.19-10.08.47:544][154]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:544][154]LogTemp: Pos : -1073741824 -2147483648 -536870912
-[2020.05.19-10.08.47:567][155]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:568][155]LogTemp: Pos : 536870912 -1073741824 -536870912
-[2020.05.19-10.08.47:591][156]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:592][156]LogTemp: Pos : -1073741824 0 -536870912
-[2020.05.19-10.08.47:615][157]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:616][157]LogTemp: Pos : 1610612736 -536870912 -536870912
-[2020.05.19-10.08.47:638][158]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:638][158]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.47:663][159]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:663][159]LogTemp: Pos : 536870912 -2147483648 -536870912
-[2020.05.19-10.08.47:685][160]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:686][160]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.47:708][161]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:708][161]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.08.47:731][162]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:732][162]LogTemp: Pos : 1610612736 1073741824 -536870912
-[2020.05.19-10.08.47:755][163]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:756][163]LogTemp: Pos : 0 0 -536870912
-[2020.05.19-10.08.47:777][164]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:778][164]LogTemp: Pos : -536870912 -2147483648 -536870912
-[2020.05.19-10.08.47:801][165]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:801][165]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.08.47:823][166]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:839][166]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.47:848][167]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:848][167]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.47:870][168]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:870][168]LogTemp: Pos : -1610612736 -2147483648 -536870912
-[2020.05.19-10.08.47:894][169]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:894][169]LogTemp: Pos : 1610612736 536870912 -536870912
-[2020.05.19-10.08.47:918][170]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:920][170]LogTemp: Pos : -1610612736 536870912 -536870912
-[2020.05.19-10.08.47:941][171]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:941][171]LogTemp: Pos : -1073741824 -1073741824 -536870912
-[2020.05.19-10.08.47:964][172]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:964][172]LogTemp: Pos : -1073741824 1073741824 -536870912
-[2020.05.19-10.08.47:987][173]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.47:988][173]LogTemp: Pos : 1610612736 -1073741824 -536870912
-[2020.05.19-10.08.48:011][174]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:016][174]LogTemp: Pos : 1073741824 1073741824 -1073741824
-[2020.05.19-10.08.48:037][175]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:042][175]LogTemp: Pos : 0 -1073741824 -536870912
-[2020.05.19-10.08.48:060][176]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:062][176]LogTemp: Pos : 1073741824 0 536870912
-[2020.05.19-10.08.48:083][177]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:085][177]LogTemp: Pos : 1610612736 1610612736 -1610612736
-[2020.05.19-10.08.48:107][178]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:107][178]LogTemp: Pos : 1610612736 0 1073741824
-[2020.05.19-10.08.48:131][179]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:131][179]LogTemp: Pos : -536870912 1073741824 0
-[2020.05.19-10.08.48:154][180]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:154][180]LogTemp: Pos : 0 -1073741824 1073741824
-[2020.05.19-10.08.48:178][181]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:178][181]LogTemp: Pos : -1610612736 -1610612736 1073741824
-[2020.05.19-10.08.48:202][182]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:203][182]LogTemp: Pos : 0 0 -536870912
-[2020.05.19-10.08.48:225][183]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:225][183]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.48:249][184]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:251][184]LogTemp: Pos : 536870912 0 0
-[2020.05.19-10.08.48:272][185]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:273][185]LogTemp: Pos : 1610612736 1610612736 536870912
-[2020.05.19-10.08.48:296][186]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:296][186]LogTemp: Pos : 0 -1610612736 536870912
-[2020.05.19-10.08.48:319][187]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:320][187]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.48:343][188]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:343][188]LogTemp: Pos : 1610612736 -2147483648 1610612736
-[2020.05.19-10.08.48:366][189]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:367][189]LogTemp: Pos : -1073741824 1610612736 1610612736
-[2020.05.19-10.08.48:389][190]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:390][190]LogTemp: Pos : 1073741824 -1610612736 1610612736
-[2020.05.19-10.08.48:412][191]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:413][191]LogTemp: Pos : 1073741824 -1610612736 1610612736
-[2020.05.19-10.08.48:436][192]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:437][192]LogTemp: Pos : 1610612736 536870912 1610612736
-[2020.05.19-10.08.48:459][193]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:459][193]LogTemp: Pos : 1073741824 -2147483648 1610612736
-[2020.05.19-10.08.48:482][194]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:485][194]LogTemp: Pos : -1073741824 536870912 1610612736
-[2020.05.19-10.08.48:506][195]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:506][195]LogTemp: Pos : -1073741824 -1073741824 1610612736
-[2020.05.19-10.08.48:528][196]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:529][196]LogTemp: Pos : 0 0 1610612736
-[2020.05.19-10.08.48:551][197]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:552][197]LogTemp: Pos : 1073741824 -1073741824 1610612736
-[2020.05.19-10.08.48:575][198]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:575][198]LogTemp: Pos : 1073741824 -1073741824 1610612736
-[2020.05.19-10.08.48:599][199]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:599][199]LogTemp: Pos : -1073741824 1073741824 -2147483648
-[2020.05.19-10.08.48:622][200]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:623][200]LogTemp: Pos : -1073741824 -2147483648 1610612736
-[2020.05.19-10.08.48:645][201]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:645][201]LogTemp: Pos : -2147483648 1073741824 1610612736
-[2020.05.19-10.08.48:668][202]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:669][202]LogTemp: Pos : 0 -2147483648 -2147483648
-[2020.05.19-10.08.48:691][203]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:692][203]LogTemp: Pos : -1073741824 -2147483648 -536870912
-[2020.05.19-10.08.48:715][204]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:717][204]LogTemp: Pos : 1610612736 -1073741824 -2147483648
-[2020.05.19-10.08.48:740][205]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:740][205]LogTemp: Pos : -2147483648 1610612736 -536870912
-[2020.05.19-10.08.48:764][206]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:764][206]LogTemp: Pos : -2147483648 0 536870912
-[2020.05.19-10.08.48:787][207]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:788][207]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.08.48:811][208]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:811][208]LogTemp: Pos : 536870912 -1073741824 -2147483648
-[2020.05.19-10.08.48:835][209]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:836][209]LogTemp: Pos : 0 -1073741824 -536870912
-[2020.05.19-10.08.48:860][210]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:860][210]LogTemp: Pos : 536870912 1073741824 0
-[2020.05.19-10.08.48:882][211]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:883][211]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.48:906][212]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:907][212]LogTemp: Pos : 1610612736 0 -2147483648
-[2020.05.19-10.08.48:929][213]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:929][213]LogTemp: Pos : 536870912 0 1073741824
-[2020.05.19-10.08.48:953][214]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:954][214]LogTemp: Pos : -1610612736 -1610612736 536870912
-[2020.05.19-10.08.48:977][215]LogTemp: No : -536870912 0 0
-[2020.05.19-10.08.48:978][215]LogTemp: Pos : -536870912 1073741824 -536870912
-[2020.05.19-10.08.49:001][216]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:001][216]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.49:025][217]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:026][217]LogTemp: Pos : -1073741824 1610612736 -536870912
-[2020.05.19-10.08.49:049][218]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:052][218]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.49:074][219]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:075][219]LogTemp: Pos : -1073741824 -1610612736 -536870912
-[2020.05.19-10.08.49:097][220]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:098][220]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.49:122][221]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:122][221]LogTemp: Pos : -1610612736 536870912 -536870912
-[2020.05.19-10.08.49:146][222]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:147][222]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.49:169][223]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:170][223]LogTemp: Pos : 1610612736 1610612736 -536870912
-[2020.05.19-10.08.49:192][224]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:193][224]LogTemp: Pos : 0 -536870912 -536870912
-[2020.05.19-10.08.49:216][225]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:216][225]LogTemp: Pos : 536870912 -536870912 -1073741824
-[2020.05.19-10.08.49:239][226]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:239][226]LogTemp: Pos : -536870912 -2147483648 -536870912
-[2020.05.19-10.08.49:264][227]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:264][227]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.49:287][228]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:287][228]LogTemp: Pos : 1073741824 -2147483648 -536870912
-[2020.05.19-10.08.49:309][229]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:320][229]LogTemp: Pos : 1610612736 -1610612736 -536870912
-[2020.05.19-10.08.49:334][230]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:337][230]LogTemp: Pos : -536870912 -536870912 -536870912
-[2020.05.19-10.08.49:356][231]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:356][231]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.49:379][232]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:380][232]LogTemp: Pos : 1073741824 1610612736 -536870912
-[2020.05.19-10.08.49:403][233]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:403][233]LogTemp: Pos : -1073741824 -1073741824 -536870912
-[2020.05.19-10.08.49:426][234]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:426][234]LogTemp: Pos : -2147483648 536870912 -536870912
-[2020.05.19-10.08.49:448][235]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:448][235]LogTemp: Pos : -536870912 1073741824 -536870912
-[2020.05.19-10.08.49:472][236]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:472][236]LogTemp: Pos : 536870912 0 -536870912
-[2020.05.19-10.08.49:495][237]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:495][237]LogTemp: Pos : -1610612736 0 -536870912
-[2020.05.19-10.08.49:518][238]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:518][238]LogTemp: Pos : -1610612736 536870912 -536870912
-[2020.05.19-10.08.49:541][239]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:541][239]LogTemp: Pos : -1073741824 1610612736 -536870912
-[2020.05.19-10.08.49:565][240]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:565][240]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.49:587][241]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:588][241]LogTemp: Pos : -2147483648 1073741824 -536870912
-[2020.05.19-10.08.49:611][242]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:611][242]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.49:633][243]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:634][243]LogTemp: Pos : -1073741824 -2147483648 -536870912
-[2020.05.19-10.08.49:657][244]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:657][244]LogTemp: Pos : -1610612736 -1610612736 -536870912
-[2020.05.19-10.08.49:680][245]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:680][245]LogTemp: Pos : 0 -2147483648 -536870912
-[2020.05.19-10.08.49:704][246]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:705][246]LogTemp: Pos : -1610612736 -1073741824 -536870912
-[2020.05.19-10.08.49:727][247]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:727][247]LogTemp: Pos : 1073741824 -536870912 -536870912
-[2020.05.19-10.08.49:750][248]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:752][248]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.08.49:774][249]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:776][249]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.49:799][250]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:799][250]LogTemp: Pos : 1610612736 1073741824 -536870912
-[2020.05.19-10.08.49:823][251]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:823][251]LogTemp: Pos : 1610612736 536870912 -536870912
-[2020.05.19-10.08.49:845][252]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:845][252]LogTemp: Pos : 1073741824 -536870912 -536870912
-[2020.05.19-10.08.49:869][253]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:869][253]LogTemp: Pos : -1610612736 536870912 -536870912
-[2020.05.19-10.08.49:891][254]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:892][254]LogTemp: Pos : -536870912 1073741824 -536870912
-[2020.05.19-10.08.49:915][255]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:915][255]LogTemp: Pos : 0 -2147483648 -536870912
-[2020.05.19-10.08.49:939][256]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:939][256]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.49:962][257]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:962][257]LogTemp: Pos : 536870912 -2147483648 -536870912
-[2020.05.19-10.08.49:985][258]LogTemp: No : 0 0 0
-[2020.05.19-10.08.49:985][258]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.50:008][259]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:008][259]LogTemp: Pos : -1610612736 -2147483648 -536870912
-[2020.05.19-10.08.50:032][260]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:032][260]LogTemp: Pos : -536870912 -2147483648 -536870912
-[2020.05.19-10.08.50:055][261]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:055][261]LogTemp: Pos : 536870912 -2147483648 -536870912
-[2020.05.19-10.08.50:078][262]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:078][262]LogTemp: Pos : -536870912 -536870912 -536870912
-[2020.05.19-10.08.50:101][263]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:102][263]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.50:125][264]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:125][264]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.50:147][265]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:148][265]LogTemp: Pos : -2147483648 536870912 -536870912
-[2020.05.19-10.08.50:171][266]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:172][266]LogTemp: Pos : 536870912 -536870912 -536870912
-[2020.05.19-10.08.50:194][267]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:194][267]LogTemp: Pos : -2147483648 -536870912 -536870912
-[2020.05.19-10.08.50:217][268]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:218][268]LogTemp: Pos : -1610612736 -536870912 -536870912
-[2020.05.19-10.08.50:240][269]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:241][269]LogTemp: Pos : -536870912 1073741824 -536870912
-[2020.05.19-10.08.50:263][270]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:264][270]LogTemp: Pos : -2147483648 -536870912 -536870912
-[2020.05.19-10.08.50:287][271]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:287][271]LogTemp: Pos : 1610612736 1073741824 -536870912
-[2020.05.19-10.08.50:310][272]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:310][272]LogTemp: Pos : 536870912 -1073741824 -536870912
-[2020.05.19-10.08.50:334][273]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:334][273]LogTemp: Pos : 1073741824 -1610612736 -536870912
-[2020.05.19-10.08.50:357][274]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:359][274]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.50:381][275]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:381][275]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.50:405][276]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:406][276]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.50:428][277]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:428][277]LogTemp: Pos : 1073741824 -2147483648 -536870912
-[2020.05.19-10.08.50:452][278]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:455][278]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.50:477][279]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:477][279]LogTemp: Pos : 1610612736 0 -536870912
-[2020.05.19-10.08.50:499][280]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:499][280]LogTemp: Pos : 0 1073741824 -536870912
-[2020.05.19-10.08.50:523][281]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:523][281]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.50:546][282]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:547][282]LogTemp: Pos : -536870912 -536870912 -536870912
-[2020.05.19-10.08.50:569][283]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:569][283]LogTemp: Pos : -1073741824 0 -536870912
-[2020.05.19-10.08.50:593][284]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:602][284]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.08.50:619][285]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:620][285]LogTemp: Pos : -1610612736 -1073741824 -536870912
-[2020.05.19-10.08.50:640][286]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:640][286]LogTemp: Pos : -1610612736 0 -536870912
-[2020.05.19-10.08.50:663][287]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:664][287]LogTemp: Pos : 0 -2147483648 -536870912
-[2020.05.19-10.08.50:687][288]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:687][288]LogTemp: Pos : -1073741824 536870912 -536870912
-[2020.05.19-10.08.50:710][289]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:710][289]LogTemp: Pos : -1610612736 1073741824 -536870912
-[2020.05.19-10.08.50:733][290]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:733][290]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.50:757][291]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:757][291]LogTemp: Pos : 536870912 -1073741824 -536870912
-[2020.05.19-10.08.50:779][292]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:780][292]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.08.50:803][293]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:804][293]LogTemp: Pos : -536870912 0 -536870912
-[2020.05.19-10.08.50:827][294]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:827][294]LogTemp: Pos : -1610612736 -536870912 -536870912
-[2020.05.19-10.08.50:848][295]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:848][295]LogTemp: Pos : -536870912 -2147483648 -536870912
-[2020.05.19-10.08.50:871][296]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:871][296]LogTemp: Pos : 1610612736 1073741824 -536870912
-[2020.05.19-10.08.50:895][297]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:895][297]LogTemp: Pos : -536870912 1610612736 -536870912
-[2020.05.19-10.08.50:918][298]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:918][298]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.50:941][299]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:942][299]LogTemp: Pos : -1610612736 1610612736 -536870912
-[2020.05.19-10.08.50:965][300]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:965][300]LogTemp: Pos : -1610612736 1610612736 -536870912
-[2020.05.19-10.08.50:987][301]LogTemp: No : 0 0 0
-[2020.05.19-10.08.50:989][301]LogTemp: Pos : 1073741824 -2147483648 -536870912
-[2020.05.19-10.08.51:013][302]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:014][302]LogTemp: Pos : -1073741824 -1610612736 -536870912
-[2020.05.19-10.08.51:035][303]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:035][303]LogTemp: Pos : 0 536870912 0
-[2020.05.19-10.08.51:059][304]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:059][304]LogTemp: Pos : 1073741824 536870912 -536870912
-[2020.05.19-10.08.51:082][305]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:082][305]LogTemp: Pos : -536870912 1610612736 -536870912
-[2020.05.19-10.08.51:106][306]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:106][306]LogTemp: Pos : 1610612736 -2147483648 -536870912
-[2020.05.19-10.08.51:130][307]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:130][307]LogTemp: Pos : 1073741824 536870912 0
-[2020.05.19-10.08.51:154][308]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:154][308]LogTemp: Pos : -1073741824 -536870912 -536870912
-[2020.05.19-10.08.51:178][309]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:178][309]LogTemp: Pos : -1073741824 536870912 0
-[2020.05.19-10.08.51:202][310]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:204][310]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.51:225][311]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:226][311]LogTemp: Pos : 536870912 1610612736 -536870912
-[2020.05.19-10.08.51:249][312]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:249][312]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:272][313]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:273][313]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.51:297][314]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:297][314]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:320][315]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:320][315]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:344][316]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:344][316]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:367][317]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:368][317]LogTemp: Pos : 1073741824 -536870912 0
-[2020.05.19-10.08.51:390][318]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:391][318]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.51:414][319]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:414][319]LogTemp: Pos : -2147483648 -1073741824 0
-[2020.05.19-10.08.51:438][320]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:438][320]LogTemp: Pos : 1610612736 1073741824 0
-[2020.05.19-10.08.51:462][321]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:462][321]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.51:484][322]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:485][322]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:509][323]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:510][323]LogTemp: Pos : 0 1610612736 0
-[2020.05.19-10.08.51:532][324]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:533][324]LogTemp: Pos : -536870912 -1073741824 0
-[2020.05.19-10.08.51:556][325]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:556][325]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.51:580][326]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:580][326]LogTemp: Pos : 536870912 536870912 0
-[2020.05.19-10.08.51:604][327]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:604][327]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.51:626][328]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:627][328]LogTemp: Pos : 0 -1610612736 -536870912
-[2020.05.19-10.08.51:650][329]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:651][329]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.08.51:675][330]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:676][330]LogTemp: Pos : 0 1610612736 0
-[2020.05.19-10.08.51:698][331]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:699][331]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.08.51:720][332]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:721][332]LogTemp: Pos : -2147483648 -1610612736 -536870912
-[2020.05.19-10.08.51:744][333]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:745][333]LogTemp: Pos : 0 -2147483648 -536870912
-[2020.05.19-10.08.51:767][334]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.51:770][334]LogTemp: Pos : -2147483648 -536870912 0
-[2020.05.19-10.08.51:791][335]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.51:792][335]LogTemp: Pos : -1073741824 0 0
-[2020.05.19-10.08.51:814][336]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.51:814][336]LogTemp: Pos : -1610612736 -2147483648 -536870912
-[2020.05.19-10.08.51:837][337]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:838][337]LogTemp: Pos : 0 -1610612736 0
-[2020.05.19-10.08.51:860][338]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:860][338]LogTemp: Pos : -2147483648 1073741824 -536870912
-[2020.05.19-10.08.51:883][339]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:888][339]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.08.51:907][340]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:907][340]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.51:929][341]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:930][341]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.51:952][342]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:953][342]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.51:976][343]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:976][343]LogTemp: Pos : 1073741824 536870912 0
-[2020.05.19-10.08.51:998][344]LogTemp: No : 0 0 0
-[2020.05.19-10.08.51:998][344]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.52:022][345]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:023][345]LogTemp: Pos : -536870912 -1610612736 0
-[2020.05.19-10.08.52:046][346]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:048][346]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.08.52:069][347]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:069][347]LogTemp: Pos : -1073741824 -1073741824 0
-[2020.05.19-10.08.52:092][348]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:092][348]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.52:115][349]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:115][349]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.52:139][350]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:139][350]LogTemp: Pos : 1610612736 -1610612736 0
-[2020.05.19-10.08.52:163][351]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:164][351]LogTemp: Pos : -2147483648 0 -536870912
-[2020.05.19-10.08.52:187][352]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:188][352]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.08.52:211][353]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:211][353]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.52:234][354]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:235][354]LogTemp: Pos : 0 1073741824 0
-[2020.05.19-10.08.52:259][355]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:259][355]LogTemp: Pos : 0 1073741824 0
-[2020.05.19-10.08.52:282][356]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:287][356]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.52:308][357]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:309][357]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.52:330][358]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:330][358]LogTemp: Pos : 0 -1610612736 -536870912
-[2020.05.19-10.08.52:353][359]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:354][359]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.52:378][360]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:378][360]LogTemp: Pos : 0 1073741824 0
-[2020.05.19-10.08.52:403][361]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:403][361]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.08.52:425][362]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:425][362]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.52:447][363]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:448][363]LogTemp: Pos : -2147483648 536870912 0
-[2020.05.19-10.08.52:472][364]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:472][364]LogTemp: Pos : 0 -536870912 0
-[2020.05.19-10.08.52:496][365]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:496][365]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.52:518][366]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:519][366]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.52:541][367]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:542][367]LogTemp: Pos : -1073741824 -1073741824 0
-[2020.05.19-10.08.52:564][368]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:565][368]LogTemp: Pos : -536870912 1073741824 0
-[2020.05.19-10.08.52:587][369]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:587][369]LogTemp: Pos : -1073741824 536870912 0
-[2020.05.19-10.08.52:610][370]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:610][370]LogTemp: Pos : -536870912 1610612736 0
-[2020.05.19-10.08.52:633][371]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:634][371]LogTemp: Pos : 0 1073741824 0
-[2020.05.19-10.08.52:656][372]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:656][372]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.52:680][373]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:680][373]LogTemp: Pos : 0 1610612736 0
-[2020.05.19-10.08.52:701][374]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:705][374]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.52:725][375]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:726][375]LogTemp: Pos : -2147483648 1610612736 0
-[2020.05.19-10.08.52:749][376]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:749][376]LogTemp: Pos : 0 -1610612736 0
-[2020.05.19-10.08.52:772][377]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:772][377]LogTemp: Pos : 1073741824 536870912 0
-[2020.05.19-10.08.52:795][378]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:795][378]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.52:818][379]LogTemp: No : 0 0 -536870912
-[2020.05.19-10.08.52:819][379]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.52:843][380]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:843][380]LogTemp: Pos : -2147483648 -536870912 0
-[2020.05.19-10.08.52:866][381]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:867][381]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.52:890][382]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:891][382]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.08.52:913][383]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:914][383]LogTemp: Pos : -2147483648 -536870912 0
-[2020.05.19-10.08.52:939][384]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:939][384]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.08.52:962][385]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:962][385]LogTemp: Pos : -1073741824 -1610612736 0
-[2020.05.19-10.08.52:985][386]LogTemp: No : 0 0 0
-[2020.05.19-10.08.52:986][386]LogTemp: Pos : 0 536870912 -536870912
-[2020.05.19-10.08.53:009][387]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:010][387]LogTemp: Pos : 1073741824 1610612736 -536870912
-[2020.05.19-10.08.53:032][388]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:036][388]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.53:056][389]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:056][389]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.53:079][390]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:079][390]LogTemp: Pos : 1073741824 -536870912 0
-[2020.05.19-10.08.53:102][391]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:104][391]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.53:126][392]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:127][392]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.53:148][393]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:154][393]LogTemp: Pos : 1073741824 -1610612736 0
-[2020.05.19-10.08.53:171][394]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:172][394]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.08.53:195][395]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:195][395]LogTemp: Pos : 1073741824 1610612736 0
-[2020.05.19-10.08.53:218][396]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:219][396]LogTemp: Pos : 1073741824 -536870912 0
-[2020.05.19-10.08.53:240][397]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:241][397]LogTemp: Pos : -2147483648 1073741824 -536870912
-[2020.05.19-10.08.53:264][398]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:264][398]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.53:287][399]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:287][399]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.53:310][400]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:310][400]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.53:333][401]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:335][401]LogTemp: Pos : 0 536870912 0
-[2020.05.19-10.08.53:358][402]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:358][402]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.53:380][403]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:380][403]LogTemp: Pos : -2147483648 -1610612736 -536870912
-[2020.05.19-10.08.53:403][404]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:405][404]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.08.53:426][405]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:427][405]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.08.53:449][406]LogTemp: No : 0 1610612736 -536870912
-[2020.05.19-10.08.53:450][406]LogTemp: Pos : -2147483648 -1073741824 536870912
-[2020.05.19-10.08.53:472][407]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:473][407]LogTemp: Pos : -1610612736 -536870912 536870912
-[2020.05.19-10.08.53:496][408]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:497][408]LogTemp: Pos : 1073741824 -536870912 1073741824
-[2020.05.19-10.08.53:519][409]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:519][409]LogTemp: Pos : 1073741824 1073741824 -1073741824
-[2020.05.19-10.08.53:543][410]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:543][410]LogTemp: Pos : -2147483648 0 -2147483648
-[2020.05.19-10.08.53:565][411]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:566][411]LogTemp: Pos : 1610612736 -536870912 -1073741824
-[2020.05.19-10.08.53:589][412]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:589][412]LogTemp: Pos : 1073741824 -536870912 536870912
-[2020.05.19-10.08.53:612][413]LogTemp: No : 0 1610612736 -536870912
-[2020.05.19-10.08.53:612][413]LogTemp: Pos : -1073741824 1073741824 -536870912
-[2020.05.19-10.08.53:635][414]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:635][414]LogTemp: Pos : -2147483648 -1610612736 0
-[2020.05.19-10.08.53:658][415]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:658][415]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.08.53:682][416]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:682][416]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.53:705][417]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:705][417]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.08.53:729][418]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:730][418]LogTemp: Pos : -2147483648 -1073741824 -536870912
-[2020.05.19-10.08.53:753][419]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:758][419]LogTemp: Pos : -1073741824 -1073741824 -536870912
-[2020.05.19-10.08.53:779][420]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:779][420]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.53:801][421]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:801][421]LogTemp: Pos : 1073741824 0 0
-[2020.05.19-10.08.53:825][422]LogTemp: No : 0 0 0
-[2020.05.19-10.08.53:825][422]LogTemp: Pos : 1073741824 536870912 0
-[2020.05.19-10.08.53:848][423]LogTemp: No : 0 1610612736 -536870912
-[2020.05.19-10.08.53:848][423]LogTemp: Pos : -536870912 -1610612736 1073741824
-[2020.05.19-10.08.53:870][424]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:871][424]LogTemp: Pos : -2147483648 -1610612736 1073741824
-[2020.05.19-10.08.53:895][425]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:895][425]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.53:917][426]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:917][426]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.08.53:941][427]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:941][427]LogTemp: Pos : -536870912 1610612736 -536870912
-[2020.05.19-10.08.53:964][428]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:964][428]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.53:986][429]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.53:988][429]LogTemp: Pos : 1610612736 -1073741824 1610612736
-[2020.05.19-10.08.54:011][430]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:011][430]LogTemp: Pos : -1073741824 0 -2147483648
-[2020.05.19-10.08.54:034][431]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:035][431]LogTemp: Pos : 1073741824 1073741824 536870912
-[2020.05.19-10.08.54:058][432]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:058][432]LogTemp: Pos : 0 1073741824 -1610612736
-[2020.05.19-10.08.54:080][433]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:081][433]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.54:103][434]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:104][434]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.54:127][435]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:127][435]LogTemp: Pos : 1073741824 1073741824 1610612736
-[2020.05.19-10.08.54:149][436]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:149][436]LogTemp: Pos : 536870912 -536870912 -1073741824
-[2020.05.19-10.08.54:173][437]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:174][437]LogTemp: Pos : -1610612736 -2147483648 1610612736
-[2020.05.19-10.08.54:195][438]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:196][438]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.08.54:218][439]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:218][439]LogTemp: Pos : 1073741824 1073741824 -1073741824
-[2020.05.19-10.08.54:241][440]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:241][440]LogTemp: Pos : -1610612736 1610612736 -2147483648
-[2020.05.19-10.08.54:264][441]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:264][441]LogTemp: Pos : -2147483648 0 -2147483648
-[2020.05.19-10.08.54:287][442]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:288][442]LogTemp: Pos : -536870912 -536870912 -1610612736
-[2020.05.19-10.08.54:310][443]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:310][443]LogTemp: Pos : -1073741824 1073741824 1073741824
-[2020.05.19-10.08.54:333][444]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:334][444]LogTemp: Pos : 1073741824 -2147483648 1073741824
-[2020.05.19-10.08.54:355][445]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:356][445]LogTemp: Pos : 1073741824 -536870912 -536870912
-[2020.05.19-10.08.54:378][446]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:380][446]LogTemp: Pos : -2147483648 -2147483648 536870912
-[2020.05.19-10.08.54:402][447]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:403][447]LogTemp: Pos : 1610612736 1610612736 -2147483648
-[2020.05.19-10.08.54:424][448]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:425][448]LogTemp: Pos : -536870912 -2147483648 -2147483648
-[2020.05.19-10.08.54:447][449]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:448][449]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.54:470][450]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:471][450]LogTemp: Pos : 1610612736 0 -1610612736
-[2020.05.19-10.08.54:493][451]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:493][451]LogTemp: Pos : -536870912 -2147483648 -2147483648
-[2020.05.19-10.08.54:517][452]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:518][452]LogTemp: Pos : -536870912 1073741824 -2147483648
-[2020.05.19-10.08.54:540][453]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:540][453]LogTemp: Pos : -536870912 -2147483648 536870912
-[2020.05.19-10.08.54:563][454]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:564][454]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.54:585][455]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:586][455]LogTemp: Pos : -2147483648 -1073741824 -2147483648
-[2020.05.19-10.08.54:608][456]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:608][456]LogTemp: Pos : -2147483648 1610612736 -2147483648
-[2020.05.19-10.08.54:631][457]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:632][457]LogTemp: Pos : -2147483648 -1073741824 -2147483648
-[2020.05.19-10.08.54:655][458]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:655][458]LogTemp: Pos : -1073741824 1610612736 -2147483648
-[2020.05.19-10.08.54:677][459]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:677][459]LogTemp: Pos : 1610612736 -1073741824 -1610612736
-[2020.05.19-10.08.54:701][460]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:702][460]LogTemp: Pos : -2147483648 -1073741824 1610612736
-[2020.05.19-10.08.54:723][461]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:723][461]LogTemp: Pos : -536870912 -1073741824 -1073741824
-[2020.05.19-10.08.54:746][462]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:747][462]LogTemp: Pos : -1610612736 1073741824 -1610612736
-[2020.05.19-10.08.54:770][463]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:771][463]LogTemp: Pos : 0 -536870912 0
-[2020.05.19-10.08.54:792][464]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:792][464]LogTemp: Pos : -2147483648 1073741824 1610612736
-[2020.05.19-10.08.54:816][465]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:817][465]LogTemp: Pos : -536870912 0 1073741824
-[2020.05.19-10.08.54:840][466]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:841][466]LogTemp: Pos : 1073741824 536870912 1610612736
-[2020.05.19-10.08.54:862][467]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:862][467]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.54:885][468]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:885][468]LogTemp: Pos : -2147483648 -2147483648 0
-[2020.05.19-10.08.54:907][469]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:907][469]LogTemp: Pos : 1073741824 -1073741824 -2147483648
-[2020.05.19-10.08.54:931][470]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:931][470]LogTemp: Pos : 1073741824 0 -2147483648
-[2020.05.19-10.08.54:953][471]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:953][471]LogTemp: Pos : -1073741824 1073741824 -2147483648
-[2020.05.19-10.08.54:976][472]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.54:977][472]LogTemp: Pos : -1073741824 -2147483648 -536870912
-[2020.05.19-10.08.55:000][473]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:001][473]LogTemp: Pos : 1073741824 -1073741824 1610612736
-[2020.05.19-10.08.55:022][474]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:022][474]LogTemp: Pos : 0 0 536870912
-[2020.05.19-10.08.55:045][475]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:046][475]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.08.55:069][476]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:069][476]LogTemp: Pos : 1073741824 1073741824 1610612736
-[2020.05.19-10.08.55:091][477]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:092][477]LogTemp: Pos : 0 -1610612736 1073741824
-[2020.05.19-10.08.55:114][478]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:114][478]LogTemp: Pos : 1073741824 -1073741824 -1610612736
-[2020.05.19-10.08.55:139][479]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:139][479]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.08.55:161][480]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:161][480]LogTemp: Pos : 1073741824 -1073741824 1073741824
-[2020.05.19-10.08.55:185][481]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:185][481]LogTemp: Pos : 0 -2147483648 -2147483648
-[2020.05.19-10.08.55:208][482]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:208][482]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.08.55:231][483]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:232][483]LogTemp: Pos : -1073741824 0 -1610612736
-[2020.05.19-10.08.55:254][484]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:254][484]LogTemp: Pos : 0 -1610612736 -1073741824
-[2020.05.19-10.08.55:278][485]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:278][485]LogTemp: Pos : -1073741824 -2147483648 1610612736
-[2020.05.19-10.08.55:301][486]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:302][486]LogTemp: Pos : -1073741824 -536870912 -2147483648
-[2020.05.19-10.08.55:324][487]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:324][487]LogTemp: Pos : 0 -1073741824 1073741824
-[2020.05.19-10.08.55:346][488]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:346][488]LogTemp: Pos : 1073741824 0 1610612736
-[2020.05.19-10.08.55:369][489]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:370][489]LogTemp: Pos : 1073741824 -1073741824 1073741824
-[2020.05.19-10.08.55:392][490]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:393][490]LogTemp: Pos : 1073741824 -1610612736 -2147483648
-[2020.05.19-10.08.55:415][491]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:419][491]LogTemp: Pos : -1073741824 -536870912 1610612736
-[2020.05.19-10.08.55:441][492]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:441][492]LogTemp: Pos : 0 -2147483648 1073741824
-[2020.05.19-10.08.55:462][493]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:463][493]LogTemp: Pos : -2147483648 0 1073741824
-[2020.05.19-10.08.55:485][494]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:486][494]LogTemp: Pos : -1610612736 -1073741824 -2147483648
-[2020.05.19-10.08.55:509][495]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:509][495]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.55:533][496]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:533][496]LogTemp: Pos : 0 -2147483648 -2147483648
-[2020.05.19-10.08.55:556][497]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:556][497]LogTemp: Pos : -2147483648 -2147483648 1073741824
-[2020.05.19-10.08.55:580][498]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:580][498]LogTemp: Pos : -2147483648 -1073741824 -536870912
-[2020.05.19-10.08.55:603][499]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:605][499]LogTemp: Pos : -1073741824 -536870912 1610612736
-[2020.05.19-10.08.55:626][500]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:626][500]LogTemp: Pos : -1073741824 -1073741824 -536870912
-[2020.05.19-10.08.55:649][501]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:652][501]LogTemp: Pos : -2147483648 1073741824 -1073741824
-[2020.05.19-10.08.55:673][502]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:675][502]LogTemp: Pos : 0 -1073741824 0
-[2020.05.19-10.08.55:695][503]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:696][503]LogTemp: Pos : -1610612736 0 -2147483648
-[2020.05.19-10.08.55:718][504]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:719][504]LogTemp: Pos : -536870912 1610612736 1073741824
-[2020.05.19-10.08.55:741][505]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:742][505]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.55:765][506]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:765][506]LogTemp: Pos : -1073741824 -1610612736 -2147483648
-[2020.05.19-10.08.55:787][507]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:787][507]LogTemp: Pos : 0 -1073741824 -1073741824
-[2020.05.19-10.08.55:810][508]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:810][508]LogTemp: Pos : 536870912 536870912 -1073741824
-[2020.05.19-10.08.55:833][509]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:834][509]LogTemp: Pos : -536870912 -1073741824 0
-[2020.05.19-10.08.55:856][510]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:864][510]LogTemp: Pos : 0 -2147483648 1610612736
-[2020.05.19-10.08.55:879][511]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:879][511]LogTemp: Pos : 1073741824 -1073741824 -2147483648
-[2020.05.19-10.08.55:902][512]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:902][512]LogTemp: Pos : 1073741824 -1610612736 1073741824
-[2020.05.19-10.08.55:924][513]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:925][513]LogTemp: Pos : 1610612736 -1073741824 -536870912
-[2020.05.19-10.08.55:947][514]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:947][514]LogTemp: Pos : -1610612736 -1073741824 1073741824
-[2020.05.19-10.08.55:970][515]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:970][515]LogTemp: Pos : 1610612736 1073741824 -2147483648
-[2020.05.19-10.08.55:993][516]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.55:993][516]LogTemp: Pos : 1073741824 -2147483648 0
-[2020.05.19-10.08.56:015][517]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:017][517]LogTemp: Pos : -536870912 -1073741824 -2147483648
-[2020.05.19-10.08.56:039][518]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:039][518]LogTemp: Pos : -1610612736 -2147483648 -1073741824
-[2020.05.19-10.08.56:061][519]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:061][519]LogTemp: Pos : -2147483648 1610612736 -1073741824
-[2020.05.19-10.08.56:085][520]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:085][520]LogTemp: Pos : -536870912 1073741824 1610612736
-[2020.05.19-10.08.56:107][521]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:107][521]LogTemp: Pos : 536870912 0 1610612736
-[2020.05.19-10.08.56:130][522]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:130][522]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.56:153][523]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:153][523]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.08.56:176][524]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:176][524]LogTemp: Pos : -2147483648 0 1073741824
-[2020.05.19-10.08.56:198][525]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:199][525]LogTemp: Pos : 1610612736 -2147483648 1073741824
-[2020.05.19-10.08.56:221][526]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:222][526]LogTemp: Pos : 536870912 536870912 0
-[2020.05.19-10.08.56:245][527]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:245][527]LogTemp: Pos : 0 -1073741824 1073741824
-[2020.05.19-10.08.56:267][528]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:268][528]LogTemp: Pos : 0 0 536870912
-[2020.05.19-10.08.56:290][529]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:290][529]LogTemp: Pos : 0 0 -536870912
-[2020.05.19-10.08.56:313][530]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:313][530]LogTemp: Pos : -2147483648 -1073741824 0
-[2020.05.19-10.08.56:336][531]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:337][531]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.56:359][532]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:359][532]LogTemp: Pos : -1073741824 1073741824 -1610612736
-[2020.05.19-10.08.56:383][533]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:384][533]LogTemp: Pos : 1073741824 -1610612736 -1073741824
-[2020.05.19-10.08.56:406][534]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:406][534]LogTemp: Pos : 1073741824 -2147483648 0
-[2020.05.19-10.08.56:428][535]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:428][535]LogTemp: Pos : -2147483648 0 1073741824
-[2020.05.19-10.08.56:450][536]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:451][536]LogTemp: Pos : -2147483648 -1073741824 -2147483648
-[2020.05.19-10.08.56:473][537]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:473][537]LogTemp: Pos : 1073741824 -536870912 -1610612736
-[2020.05.19-10.08.56:496][538]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:497][538]LogTemp: Pos : -1610612736 1073741824 -2147483648
-[2020.05.19-10.08.56:519][539]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:520][539]LogTemp: Pos : -1610612736 536870912 -2147483648
-[2020.05.19-10.08.56:543][540]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:543][540]LogTemp: Pos : -2147483648 -536870912 -2147483648
-[2020.05.19-10.08.56:565][541]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:565][541]LogTemp: Pos : 536870912 0 1073741824
-[2020.05.19-10.08.56:589][542]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:589][542]LogTemp: Pos : 0 1073741824 -2147483648
-[2020.05.19-10.08.56:611][543]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:611][543]LogTemp: Pos : 0 0 0
-[2020.05.19-10.08.56:633][544]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:634][544]LogTemp: Pos : 536870912 -2147483648 0
-[2020.05.19-10.08.56:657][545]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:657][545]LogTemp: Pos : -1073741824 1073741824 1073741824
-[2020.05.19-10.08.56:680][546]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:681][546]LogTemp: Pos : -2147483648 -1610612736 -1073741824
-[2020.05.19-10.08.56:703][547]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:704][547]LogTemp: Pos : 0 1073741824 0
-[2020.05.19-10.08.56:726][548]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:726][548]LogTemp: Pos : 1610612736 1073741824 -1073741824
-[2020.05.19-10.08.56:749][549]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:750][549]LogTemp: Pos : -1073741824 1073741824 -1610612736
-[2020.05.19-10.08.56:772][550]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:773][550]LogTemp: Pos : 0 -2147483648 1610612736
-[2020.05.19-10.08.56:795][551]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:795][551]LogTemp: Pos : 1073741824 -1073741824 1073741824
-[2020.05.19-10.08.56:818][552]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:819][552]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.08.56:841][553]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:841][553]LogTemp: Pos : -536870912 0 0
-[2020.05.19-10.08.56:864][554]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:864][554]LogTemp: Pos : 1073741824 536870912 -1610612736
-[2020.05.19-10.08.56:886][555]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:888][555]LogTemp: Pos : 536870912 -2147483648 1610612736
-[2020.05.19-10.08.56:910][556]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:911][556]LogTemp: Pos : -1073741824 -2147483648 -1073741824
-[2020.05.19-10.08.56:933][557]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:935][557]LogTemp: Pos : -536870912 -536870912 -1073741824
-[2020.05.19-10.08.56:955][558]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:955][558]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.56:978][559]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.56:980][559]LogTemp: Pos : 0 -1073741824 -1610612736
-[2020.05.19-10.08.57:000][560]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:001][560]LogTemp: Pos : 1610612736 536870912 536870912
-[2020.05.19-10.08.57:024][561]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:025][561]LogTemp: Pos : -536870912 1073741824 -1073741824
-[2020.05.19-10.08.57:046][562]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:047][562]LogTemp: Pos : -2147483648 -1073741824 -536870912
-[2020.05.19-10.08.57:069][563]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:069][563]LogTemp: Pos : 1073741824 1073741824 -1073741824
-[2020.05.19-10.08.57:093][564]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:093][564]LogTemp: Pos : -2147483648 -1073741824 1610612736
-[2020.05.19-10.08.57:115][565]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:115][565]LogTemp: Pos : -2147483648 -1073741824 1073741824
-[2020.05.19-10.08.57:139][566]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:139][566]LogTemp: Pos : -2147483648 1610612736 536870912
-[2020.05.19-10.08.57:161][567]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:162][567]LogTemp: Pos : -2147483648 0 1073741824
-[2020.05.19-10.08.57:184][568]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:186][568]LogTemp: Pos : 0 0 -1073741824
-[2020.05.19-10.08.57:207][569]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:207][569]LogTemp: Pos : 0 536870912 -1610612736
-[2020.05.19-10.08.57:230][570]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:230][570]LogTemp: Pos : 0 0 536870912
-[2020.05.19-10.08.57:252][571]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:252][571]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.08.57:276][572]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:276][572]LogTemp: Pos : 1073741824 -2147483648 -536870912
-[2020.05.19-10.08.57:299][573]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:299][573]LogTemp: Pos : 0 536870912 -2147483648
-[2020.05.19-10.08.57:321][574]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:322][574]LogTemp: Pos : 0 -1610612736 -2147483648
-[2020.05.19-10.08.57:345][575]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:345][575]LogTemp: Pos : 1073741824 -536870912 536870912
-[2020.05.19-10.08.57:367][576]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:368][576]LogTemp: Pos : 0 -2147483648 1610612736
-[2020.05.19-10.08.57:390][577]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:391][577]LogTemp: Pos : -536870912 -2147483648 0
-[2020.05.19-10.08.57:413][578]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:413][578]LogTemp: Pos : -1610612736 -2147483648 1073741824
-[2020.05.19-10.08.57:436][579]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:436][579]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.08.57:459][580]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:459][580]LogTemp: Pos : 1073741824 1610612736 1073741824
-[2020.05.19-10.08.57:482][581]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:483][581]LogTemp: Pos : 1073741824 -536870912 -536870912
-[2020.05.19-10.08.57:505][582]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:505][582]LogTemp: Pos : 1610612736 -536870912 1610612736
-[2020.05.19-10.08.57:528][583]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:528][583]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.08.57:551][584]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:551][584]LogTemp: Pos : -1073741824 -2147483648 1073741824
-[2020.05.19-10.08.57:574][585]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:575][585]LogTemp: Pos : -2147483648 -536870912 -1610612736
-[2020.05.19-10.08.57:603][586]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:603][586]LogTemp: Pos : -536870912 -1073741824 1610612736
-[2020.05.19-10.08.57:680][587]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:680][587]LogTemp: Pos : 0 -2147483648 1610612736
-[2020.05.19-10.08.57:728][588]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:728][588]LogTemp: Pos : 1073741824 1073741824 1610612736
-[2020.05.19-10.08.57:736][589]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:737][589]LogTemp: Pos : 1073741824 -2147483648 536870912
-[2020.05.19-10.08.57:745][590]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:745][590]LogTemp: Pos : -2147483648 -1073741824 -1610612736
-[2020.05.19-10.08.57:841][591]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:841][591]LogTemp: Pos : 536870912 -2147483648 1073741824
-[2020.05.19-10.08.57:849][592]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:850][592]LogTemp: Pos : -1610612736 536870912 -1610612736
-[2020.05.19-10.08.57:857][593]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:858][593]LogTemp: Pos : 1073741824 0 -2147483648
-[2020.05.19-10.08.57:884][594]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:884][594]LogTemp: Pos : -2147483648 -2147483648 1610612736
-[2020.05.19-10.08.57:917][595]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:918][595]LogTemp: Pos : -2147483648 -1073741824 -1073741824
-[2020.05.19-10.08.57:950][596]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:951][596]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.08.57:984][597]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.57:985][597]LogTemp: Pos : -2147483648 -1073741824 -2147483648
-[2020.05.19-10.08.58:016][598]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.58:017][598]LogTemp: Pos : -1610612736 536870912 1073741824
-[2020.05.19-10.08.58:049][599]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.58:049][599]LogTemp: Pos : 1073741824 -2147483648 -536870912
-[2020.05.19-10.08.58:083][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.05.19-10.08.58:093][600]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.08.58:093][600]LogTemp: Pos : -2147483648 -1073741824 536870912
-[2020.05.19-10.09.03:348][154]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:348][154]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.09.03:358][155]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:359][155]LogTemp: Pos : 1073741824 -2147483648 1073741824
-[2020.05.19-10.09.03:368][156]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:368][156]LogTemp: Pos : -1073741824 1073741824 -2147483648
-[2020.05.19-10.09.03:401][157]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:403][157]LogTemp: Pos : -536870912 0 -2147483648
-[2020.05.19-10.09.03:435][158]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:436][158]LogTemp: Pos : 1073741824 -536870912 1073741824
-[2020.05.19-10.09.03:468][159]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:469][159]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.09.03:503][160]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:510][160]LogTemp: Pos : 536870912 1073741824 -536870912
-[2020.05.19-10.09.03:536][161]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:538][161]LogTemp: Pos : 1073741824 -1073741824 -536870912
-[2020.05.19-10.09.03:570][162]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:571][162]LogTemp: Pos : 0 -536870912 -536870912
-[2020.05.19-10.09.03:604][163]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:606][163]LogTemp: Pos : 0 1073741824 -1073741824
-[2020.05.19-10.09.03:637][164]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:637][164]LogTemp: Pos : -1073741824 0 -2147483648
-[2020.05.19-10.09.03:670][165]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:670][165]LogTemp: Pos : 536870912 1073741824 1073741824
-[2020.05.19-10.09.03:703][166]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:704][166]LogTemp: Pos : 1073741824 0 1073741824
-[2020.05.19-10.09.03:738][167]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:740][167]LogTemp: Pos : -536870912 0 -1610612736
-[2020.05.19-10.09.03:772][168]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:773][168]LogTemp: Pos : 1073741824 -1073741824 1073741824
-[2020.05.19-10.09.03:805][169]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:807][169]LogTemp: Pos : -1073741824 -536870912 0
-[2020.05.19-10.09.03:838][170]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:838][170]LogTemp: Pos : 0 -536870912 0
-[2020.05.19-10.09.03:937][171]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:937][171]LogTemp: Pos : 1073741824 -1073741824 536870912
-[2020.05.19-10.09.03:978][172]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.03:979][172]LogTemp: Pos : 0 1073741824 536870912
-[2020.05.19-10.09.04:021][173]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:022][173]LogTemp: Pos : -2147483648 -2147483648 1073741824
-[2020.05.19-10.09.04:063][174]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:063][174]LogTemp: Pos : -536870912 -1073741824 -536870912
-[2020.05.19-10.09.04:106][175]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:107][175]LogTemp: Pos : 1073741824 -2147483648 1073741824
-[2020.05.19-10.09.04:148][176]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:149][176]LogTemp: Pos : -1610612736 0 -1610612736
-[2020.05.19-10.09.04:191][177]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:191][177]LogTemp: Pos : 1073741824 -536870912 -2147483648
-[2020.05.19-10.09.04:232][178]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:233][178]LogTemp: Pos : 1073741824 -1073741824 0
-[2020.05.19-10.09.04:275][179]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:275][179]LogTemp: Pos : -2147483648 -1073741824 1073741824
-[2020.05.19-10.09.04:317][180]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:317][180]LogTemp: Pos : -2147483648 -1073741824 0
-[2020.05.19-10.09.04:358][181]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:358][181]LogTemp: Pos : 1073741824 -1073741824 1073741824
-[2020.05.19-10.09.04:367][182]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:371][182]LogTemp: Pos : -536870912 1073741824 -2147483648
-[2020.05.19-10.09.04:379][183]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:379][183]LogTemp: Pos : -1073741824 -1073741824 1073741824
-[2020.05.19-10.09.04:399][184]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:400][184]LogTemp: Pos : 0 -1610612736 0
-[2020.05.19-10.09.04:432][185]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:433][185]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.09.04:465][186]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:465][186]LogTemp: Pos : 536870912 0 1073741824
-[2020.05.19-10.09.04:499][187]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:500][187]LogTemp: Pos : 1610612736 0 -2147483648
-[2020.05.19-10.09.04:569][188]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:569][188]LogTemp: Pos : 0 -2147483648 -1073741824
-[2020.05.19-10.09.04:578][189]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:578][189]LogTemp: Pos : -1073741824 1610612736 1073741824
-[2020.05.19-10.09.04:597][190]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:597][190]LogTemp: Pos : 0 1610612736 -1073741824
-[2020.05.19-10.09.04:631][191]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:631][191]LogTemp: Pos : 1610612736 1073741824 1073741824
-[2020.05.19-10.09.04:661][192]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:661][192]LogTemp: Pos : 1610612736 -1073741824 1073741824
-[2020.05.19-10.09.04:699][193]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:700][193]LogTemp: Pos : 1073741824 -1073741824 -2147483648
-[2020.05.19-10.09.04:731][194]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:732][194]LogTemp: Pos : 1073741824 1073741824 -2147483648
-[2020.05.19-10.09.04:762][195]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:763][195]LogTemp: Pos : -1610612736 1073741824 -536870912
-[2020.05.19-10.09.04:794][196]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:798][196]LogTemp: Pos : -2147483648 0 1610612736
-[2020.05.19-10.09.04:829][197]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:829][197]LogTemp: Pos : 1610612736 1073741824 1610612736
-[2020.05.19-10.09.04:861][198]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:866][198]LogTemp: Pos : 1073741824 1610612736 0
-[2020.05.19-10.09.04:895][199]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:895][199]LogTemp: Pos : 1610612736 -1073741824 -1073741824
-[2020.05.19-10.09.04:929][200]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:929][200]LogTemp: Pos : -2147483648 1073741824 1073741824
-[2020.05.19-10.09.04:961][201]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:962][201]LogTemp: Pos : 1073741824 -1073741824 -2147483648
-[2020.05.19-10.09.04:994][202]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.04:995][202]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.09.05:027][203]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:028][203]LogTemp: Pos : -1073741824 -1073741824 -1073741824
-[2020.05.19-10.09.05:061][204]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:063][204]LogTemp: Pos : 0 -2147483648 -1610612736
-[2020.05.19-10.09.05:094][205]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:094][205]LogTemp: Pos : 1073741824 1610612736 1073741824
-[2020.05.19-10.09.05:126][206]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:126][206]LogTemp: Pos : -2147483648 -2147483648 -2147483648
-[2020.05.19-10.09.05:158][207]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:159][207]LogTemp: Pos : 1610612736 -536870912 -1610612736
-[2020.05.19-10.09.05:191][208]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:192][208]LogTemp: Pos : -2147483648 -536870912 -2147483648
-[2020.05.19-10.09.05:224][209]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:224][209]LogTemp: Pos : -2147483648 0 -2147483648
-[2020.05.19-10.09.05:256][210]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:257][210]LogTemp: Pos : -2147483648 0 -1073741824
-[2020.05.19-10.09.05:290][211]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:291][211]LogTemp: Pos : 0 -1610612736 536870912
-[2020.05.19-10.09.05:323][212]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:323][212]LogTemp: Pos : 536870912 -1073741824 0
-[2020.05.19-10.09.05:355][213]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:356][213]LogTemp: Pos : -1610612736 -1610612736 -1073741824
-[2020.05.19-10.09.05:388][214]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:389][214]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.09.05:421][215]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:421][215]LogTemp: Pos : -1073741824 0 1610612736
-[2020.05.19-10.09.05:453][216]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:453][216]LogTemp: Pos : -2147483648 -2147483648 536870912
-[2020.05.19-10.09.05:487][217]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:488][217]LogTemp: Pos : -536870912 -2147483648 1073741824
-[2020.05.19-10.09.05:520][218]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:521][218]LogTemp: Pos : -1610612736 -1610612736 0
-[2020.05.19-10.09.05:553][219]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:553][219]LogTemp: Pos : 536870912 -1073741824 1073741824
-[2020.05.19-10.09.05:585][220]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:585][220]LogTemp: Pos : -2147483648 -2147483648 -1073741824
-[2020.05.19-10.09.05:618][221]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:619][221]LogTemp: Pos : 0 -2147483648 0
-[2020.05.19-10.09.05:652][222]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:652][222]LogTemp: Pos : 0 -1073741824 -2147483648
-[2020.05.19-10.09.05:685][223]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:686][223]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.09.05:718][224]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:720][224]LogTemp: Pos : 1073741824 0 -2147483648
-[2020.05.19-10.09.05:752][225]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:752][225]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.09.05:786][226]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:787][226]LogTemp: Pos : -1073741824 -1073741824 -1610612736
-[2020.05.19-10.09.05:820][227]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:820][227]LogTemp: Pos : 0 1610612736 -536870912
-[2020.05.19-10.09.05:853][228]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:853][228]LogTemp: Pos : 1610612736 -1073741824 -1073741824
-[2020.05.19-10.09.05:885][229]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:886][229]LogTemp: Pos : 1610612736 -1073741824 0
-[2020.05.19-10.09.05:918][230]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:919][230]LogTemp: Pos : -536870912 -1073741824 -1610612736
-[2020.05.19-10.09.05:954][231]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:954][231]LogTemp: Pos : 0 1073741824 -2147483648
-[2020.05.19-10.09.05:987][232]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.05:987][232]LogTemp: Pos : -1073741824 1073741824 -1073741824
-[2020.05.19-10.09.06:024][233]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:024][233]LogTemp: Pos : 1610612736 1610612736 536870912
-[2020.05.19-10.09.06:119][234]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:119][234]LogTemp: Pos : 0 1073741824 -536870912
-[2020.05.19-10.09.06:129][235]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:132][235]LogTemp: Pos : 0 -1073741824 -536870912
-[2020.05.19-10.09.06:144][236]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:145][236]LogTemp: Pos : 0 -1073741824 -536870912
-[2020.05.19-10.09.06:163][237]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:164][237]LogTemp: Pos : 1073741824 1073741824 -536870912
-[2020.05.19-10.09.06:197][238]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:197][238]LogTemp: Pos : -536870912 -1073741824 -2147483648
-[2020.05.19-10.09.06:229][239]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:230][239]LogTemp: Pos : 1610612736 -2147483648 -2147483648
-[2020.05.19-10.09.06:261][240]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:262][240]LogTemp: Pos : -1073741824 -1073741824 0
-[2020.05.19-10.09.06:293][241]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:294][241]LogTemp: Pos : 0 0 -2147483648
-[2020.05.19-10.09.06:327][242]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:327][242]LogTemp: Pos : -2147483648 -1073741824 -2147483648
-[2020.05.19-10.09.06:360][243]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:360][243]LogTemp: Pos : -1073741824 -1073741824 -1610612736
-[2020.05.19-10.09.06:392][244]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:393][244]LogTemp: Pos : 1073741824 0 -1073741824
-[2020.05.19-10.09.06:425][245]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:425][245]LogTemp: Pos : 1073741824 -1073741824 -1073741824
-[2020.05.19-10.09.06:457][246]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:458][246]LogTemp: Pos : -2147483648 -2147483648 -536870912
-[2020.05.19-10.09.06:489][247]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:489][247]LogTemp: Pos : 1610612736 1073741824 -1073741824
-[2020.05.19-10.09.06:522][248]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:523][248]LogTemp: Pos : -1073741824 -2147483648 1610612736
-[2020.05.19-10.09.06:554][249]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:555][249]LogTemp: Pos : 0 -536870912 -1073741824
-[2020.05.19-10.09.06:587][250]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:587][250]LogTemp: Pos : -1073741824 0 -1073741824
-[2020.05.19-10.09.06:620][251]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:620][251]LogTemp: Pos : -2147483648 1073741824 0
-[2020.05.19-10.09.06:652][252]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:652][252]LogTemp: Pos : 1073741824 -536870912 -536870912
-[2020.05.19-10.09.06:684][253]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:685][253]LogTemp: Pos : -2147483648 -1610612736 0
-[2020.05.19-10.09.06:717][254]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:718][254]LogTemp: Pos : 536870912 1610612736 536870912
-[2020.05.19-10.09.06:749][255]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:753][255]LogTemp: Pos : -2147483648 0 0
-[2020.05.19-10.09.06:781][256]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:782][256]LogTemp: Pos : 0 1610612736 -536870912
-[2020.05.19-10.09.06:814][257]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:814][257]LogTemp: Pos : 0 0 0
-[2020.05.19-10.09.06:846][258]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:846][258]LogTemp: Pos : 1073741824 1610612736 -1610612736
-[2020.05.19-10.09.06:879][259]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:879][259]LogTemp: Pos : -1073741824 536870912 -2147483648
-[2020.05.19-10.09.06:914][260]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:914][260]LogTemp: Pos : 1073741824 1073741824 0
-[2020.05.19-10.09.06:946][261]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:947][261]LogTemp: Pos : 536870912 536870912 -1610612736
-[2020.05.19-10.09.06:982][262]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.06:983][262]LogTemp: Pos : 1610612736 -1073741824 -536870912
-[2020.05.19-10.09.07:017][263]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:018][263]LogTemp: Pos : 1610612736 0 -1610612736
-[2020.05.19-10.09.07:050][264]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:050][264]LogTemp: Pos : -2147483648 0 -2147483648
-[2020.05.19-10.09.07:081][265]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:081][265]LogTemp: Pos : -1073741824 -2147483648 0
-[2020.05.19-10.09.07:113][266]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:113][266]LogTemp: Pos : -1073741824 1073741824 0
-[2020.05.19-10.09.07:146][267]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:146][267]LogTemp: Pos : -2147483648 -1073741824 536870912
-[2020.05.19-10.09.07:178][268]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:179][268]LogTemp: Pos : -1073741824 1073741824 1073741824
-[2020.05.19-10.09.07:211][269]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:212][269]LogTemp: Pos : -1610612736 1073741824 1073741824
-[2020.05.19-10.09.07:244][270]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:245][270]LogTemp: Pos : 0 536870912 -1073741824
-[2020.05.19-10.09.07:276][271]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:277][271]LogTemp: Pos : -2147483648 1610612736 0
-[2020.05.19-10.09.07:308][272]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:309][272]LogTemp: Pos : 1073741824 0 1073741824
-[2020.05.19-10.09.07:342][273]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:342][273]LogTemp: Pos : -2147483648 1073741824 536870912
-[2020.05.19-10.09.07:374][274]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:374][274]LogTemp: Pos : 1073741824 0 536870912
-[2020.05.19-10.09.07:406][275]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:407][275]LogTemp: Pos : -1073741824 1073741824 -1610612736
-[2020.05.19-10.09.07:489][276]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:493][276]LogTemp: Pos : -1073741824 -1610612736 -1073741824
-[2020.05.19-10.09.07:654][277]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:655][277]LogTemp: Pos : -1073741824 -536870912 -2147483648
-[2020.05.19-10.09.07:685][278]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:687][278]LogTemp: Pos : 1610612736 536870912 1610612736
-[2020.05.19-10.09.07:721][279]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:722][279]LogTemp: Pos : -1073741824 -1073741824 -1610612736
-[2020.05.19-10.09.07:754][280]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:756][280]LogTemp: Pos : 0 -2147483648 1610612736
-[2020.05.19-10.09.07:798][281]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:801][281]LogTemp: Pos : -536870912 0 -1610612736
-[2020.05.19-10.09.07:819][282]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:821][282]LogTemp: Pos : 0 -2147483648 -2147483648
-[2020.05.19-10.09.07:839][283]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:840][283]LogTemp: Pos : 0 -1073741824 -1610612736
-[2020.05.19-10.09.07:872][284]LogTemp: No : 0 1073741824 -536870912
-[2020.05.19-10.09.07:873][284]LogTemp: Pos : 536870912 0 -1610612736
+[2020.05.20-10.34.27:789][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:790][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.20-10.34.27:790][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.20-10.34.27:791][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.20-10.34.27:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:792][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:806][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-10.34.27:807][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-10.34.27:807][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-10.34.27:807][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-10.34.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-10.34.27:809][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-10.34.27:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-10.34.27:811][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-10.34.27:812][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-10.34.27:813][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-10.34.27:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.20-10.34.27:818][  0]LogHAL: Display: Platform has ~ 16 GB [17144270848 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.20-10.34.27:818][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.20-10.34.27:818][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.05.20-10.34.27:819][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.05.20-10.34.27:820][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.05.20-10.34.27:821][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-10.34.27:822][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.20-10.34.27:823][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.05.20-10.34.27:824][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.05.20-10.34.27:824][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.34.27:824][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.05.20-10.34.27:824][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.05.20-10.34.27:824][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.20-10.34.27:824][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.20-10.34.27:825][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.20-10.34.27:825][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/SC/UE4Practice/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.34.27:825][  0]LogInit: Computer: DESKTOP-4SDQ2H7
+[2020.05.20-10.34.27:825][  0]LogInit: User: kgca009
+[2020.05.20-10.34.27:825][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.20-10.34.27:825][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.20-10.34.27:825][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.05.20-10.34.27:826][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.20-10.34.27:826][  0]LogMemory: Process Physical Memory: 105.28 MB used, 105.29 MB peak
+[2020.05.20-10.34.27:826][  0]LogMemory: Process Virtual Memory: 89.07 MB used, 89.07 MB peak
+[2020.05.20-10.34.27:826][  0]LogMemory: Physical Memory: 9872.80 MB used,  6477.25 MB free, 16350.05 MB total
+[2020.05.20-10.34.27:826][  0]LogMemory: Virtual Memory: 4648.61 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2020.05.20-10.34.27:855][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.20-10.34.28:043][  0]LogInit: Using OS detected language (ko-KR).
+[2020.05.20-10.34.28:043][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.05.20-10.34.28:044][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.05.20-10.34.28:220][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.20-10.34.28:411][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.20-10.34.28:411][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.20-10.34.28:740][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-10.34.28:740][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.20-10.34.28:893][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2020.05.20-10.34.28:893][  0]LogD3D11RHI:       1989/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.05.20-10.34.28:907][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.20-10.34.28:907][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.20-10.34.28:907][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.20-10.34.28:916][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.20-10.34.28:918][  0]LogD3D11RHI:     GPU DeviceId: 0xf02 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.20-10.34.28:918][  0]LogWindows: EnumDisplayDevices:
+[2020.05.20-10.34.28:919][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2020.05.20-10.34.28:920][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2020.05.20-10.34.28:922][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.05.20-10.34.28:923][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2020.05.20-10.34.28:923][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2020.05.20-10.34.28:923][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2020.05.20-10.34.28:923][  0]LogRHI: Texture pool is 1392 MB (70% of 1989 MB)
+[2020.05.20-10.34.29:002][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.05.20-10.34.29:003][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.20-10.34.29:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.05.20-10.34.29:881][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.05.20-10.34.29:904][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.05.20-10.34.29:928][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.05.20-10.34.29:957][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.05.20-10.34.29:984][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.05.20-10.34.30:007][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.05.20-10.34.30:032][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.20-10.34.30:059][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.05.20-10.34.30:076][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.05.20-10.34.30:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.05.20-10.34.30:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.05.20-10.34.30:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.05.20-10.34.30:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.05.20-10.34.30:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.05.20-10.34.30:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.05.20-10.34.30:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.05.20-10.34.30:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.05.20-10.34.30:144][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.05.20-10.34.30:147][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.20-10.34.30:147][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.05.20-10.34.30:147][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.05.20-10.34.30:148][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.20-10.34.30:148][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.20-10.34.30:148][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.20-10.34.30:149][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.20-10.34.30:149][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.05.20-10.34.30:150][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.05.20-10.34.30:161][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.05.20-10.34.30:235][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.05.20-10.34.30:235][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.05.20-10.34.30:264][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.05.20-10.34.30:264][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.05.20-10.34.30:284][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.05.20-10.34.30:302][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.20-10.34.30:318][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.05.20-10.34.30:336][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.05.20-10.34.30:385][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.05.20-10.34.30:385][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.05.20-10.34.30:385][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.20-10.34.30:442][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.20-10.34.30:794][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/SC/UE4Practice/UE4Practice/IK2/Intermediate/Shaders/WorkingDirectory/7476/).
+[2020.05.20-10.34.30:794][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kgca009/AppData/Local/Temp/UnrealShaderWorkingDir/02F4C8114FAEEBEDC876C0B57E39E711/'.
+[2020.05.20-10.34.30:800][  0]LogXGEController: Cleaning working directory: C:/Users/kgca009/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.20-10.34.30:807][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.05.20-10.34.32:036][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.20-10.34.32:137][  0]LogDerivedDataCache: Loaded boot cache 0.10s 77MB C:/Users/kgca009/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.05.20-10.34.32:143][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kgca009/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.05.20-10.34.32:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SC/UE4Practice/UE4Practice/IK2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.20-10.34.32:159][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.20-10.34.32:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SC/UE4Practice/UE4Practice/IK2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-10.34.32:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.20-10.34.32:179][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.20-10.34.32:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-10.34.32:192][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.20-10.34.32:208][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kgca009/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.20-10.34.32:208][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.20-10.34.32:209][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.20-10.34.32:245][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.20-10.34.32:250][  0]LogSlate: Using FreeType 2.6.0
+[2020.05.20-10.34.32:251][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.20-10.34.32:380][  0]LogAssetRegistry: FAssetRegistry took 0.0091 seconds to start up
+[2020.05.20-10.34.32:903][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-10.34.33:241][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.20-10.34.33:242][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.20-10.34.33:242][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.20-10.34.33:242][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.20-10.34.33:242][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.20-10.34.33:256][  0]LogNetVersion: IK2 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4186048603)
+[2020.05.20-10.34.33:978][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.069937 seconds
+[2020.05.20-10.34.33:992][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.05.20-10.34.33:992][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.05.20-10.34.33:992][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.20-10.34.36:192][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.20-10.34.36:204][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
