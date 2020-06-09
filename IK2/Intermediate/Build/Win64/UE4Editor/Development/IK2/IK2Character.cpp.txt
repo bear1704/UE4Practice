@@ -1,10 +1,10 @@
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
-d:\sc\ue4practice\ue4practice\ik2\source\ik2\IK2Character.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
+d:\ue4practice\ik2\source\ik2\IK2Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IK2Character.generated.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IK2Character.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\headmounteddisplay\public\HeadMountedDisplayTypes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
@@ -33,11 +33,11 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
-d:\sc\ue4practice\ue4practice\ik2\source\ik2\IkComponent.h
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IkComponent.generated.h
+d:\ue4practice\ik2\source\ik2\IkComponent.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IkComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/PoseableMeshComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PoseableMeshComponent.generated.h
-d:\sc\ue4practice\ue4practice\ik2\source\ik2\IK2AnimInstance.h
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IK2AnimInstance.generated.h
+d:\ue4practice\ik2\source\ik2\IK2AnimInstance.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Inc\IK2\IK2AnimInstance.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h

@@ -18,6 +18,20 @@
 
 AIK2Character::AIK2Character()
 {
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> MESH
+	(TEXT("SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'"));
+
+	//static ConstructorHelpers::FObjectFinder<UAnimInstance> MyIKAnimBP
+	//(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'"));
+
+	static ConstructorHelpers::FClassFinder<UAnimInstance> MyIKAnimBP
+	(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ABP_Third.ABP_Third_C'"));
+
+
+	if(MyIKAnimBP.Succeeded())
+		AnimInstance = MyIKAnimBP.Class;
+
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -52,15 +66,12 @@ AIK2Character::AIK2Character()
 	FootIkComponent = CreateDefaultSubobject<UIkComponent>(TEXT("IK_FOOT"));
 	PoseComp = CreateDefaultSubobject<UPoseableMeshComponent>(TEXT("PoseComp"));
 
-	static ConstructorHelpers::FClassFinder<UAnimInstance> AnimBP
-	(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'"));
+	
 
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> MESH
-	(TEXT("SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'"));
+
+
 
 	//PoseComp->SetSkeletalMesh(MESH.Object);
-	
-	AnimInstance = AnimBP.Class;
 	
 }
 

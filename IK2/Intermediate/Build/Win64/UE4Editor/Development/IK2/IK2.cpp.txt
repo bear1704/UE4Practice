@@ -1,2 +1,2 @@
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
-d:\sc\ue4practice\ue4practice\ik2\source\ik2\IK2.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
+d:\ue4practice\ik2\source\ik2\IK2.h

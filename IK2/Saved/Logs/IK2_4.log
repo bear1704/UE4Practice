@@ -1,0 +1,958 @@
+﻿Log file open, 06/07/20 16:51:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: IK2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.153829
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1909) (), CPU:         Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz, GPU: AMD Radeon HD 7800 Series
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.07-07.51.37:823][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.07-07.51.37:823][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.07-07.51.37:823][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:823][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.07-07.51.37:823][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:823][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.07-07.51.37:824][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.07-07.51.37:825][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.07-07.51.37:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:825][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:834][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:834][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.07-07.51.37:834][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.07-07.51.37:834][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:834][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.07-07.51.37:834][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.07-07.51.37:835][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.07-07.51.37:836][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.07-07.51.37:837][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.07-07.51.37:837][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.07-07.51.37:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.07-07.51.37:841][  0]LogHAL: Display: Platform has ~ 16 GB [17123405824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.07-07.51.37:841][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.07-07.51.37:841][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:841][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.07-07.51.37:841][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.07-07.51.37:842][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.07-07.51.37:843][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.07-07.51.37:844][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4Practice/IK2/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-07.51.37:845][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.07-07.51.37:845][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.07-07.51.37:845][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE4Practice/IK2/Saved/Config/Windows/Engine.ini]
+[2020.06.07-07.51.37:845][  0]LogInit: Computer: DESKTOP-2IHUG0K
+[2020.06.07-07.51.37:845][  0]LogInit: User: ACA
+[2020.06.07-07.51.37:845][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.07-07.51.37:845][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.07-07.51.37:846][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.06.07-07.51.37:846][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.07-07.51.37:846][  0]LogMemory: Process Physical Memory: 100.23 MB used, 100.23 MB peak
+[2020.06.07-07.51.37:846][  0]LogMemory: Process Virtual Memory: 87.89 MB used, 87.90 MB peak
+[2020.06.07-07.51.37:846][  0]LogMemory: Physical Memory: 7135.68 MB used,  9194.48 MB free, 16330.15 MB total
+[2020.06.07-07.51.37:846][  0]LogMemory: Virtual Memory: 4629.41 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2020.06.07-07.51.37:850][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.07-07.51.37:898][  0]LogInit: Using OS detected language (ko-KR).
+[2020.06.07-07.51.37:898][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.06.07-07.51.37:900][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.06.07-07.51.37:987][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.07-07.51.38:061][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.07-07.51.38:061][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.07-07.51.38:337][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.07-07.51.38:337][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.07-07.51.38:407][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
+[2020.06.07-07.51.38:408][  0]LogD3D11RHI:       2027/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.06.07-07.51.38:412][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.07-07.51.38:412][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.07-07.51.38:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.07-07.51.38:418][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.07-07.51.38:418][  0]LogD3D11RHI:     GPU DeviceId: 0x679e (for the marketing name, search the web for "GPU Device Id")
+[2020.06.07-07.51.38:418][  0]LogWindows: EnumDisplayDevices:
+[2020.06.07-07.51.38:418][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:1 D:1)
+[2020.06.07-07.51.38:419][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:420][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:421][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:422][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:423][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:423][  0]LogWindows:    6. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:424][  0]LogWindows:    7. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2020.06.07-07.51.38:425][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.06.07-07.51.38:425][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
+[2020.06.07-07.51.38:425][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.2.2 (internal:26.20.15019.15019, unified:26.20.15019.15019)
+[2020.06.07-07.51.38:425][  0]LogD3D11RHI:      Driver Date: 2-26-2020
+[2020.06.07-07.51.38:425][  0]LogRHI: Texture pool is 1419 MB (70% of 2027 MB)
+[2020.06.07-07.51.38:495][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.07-07.51.38:507][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.07-07.51.38:968][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.06.07-07.51.38:985][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.06.07-07.51.39:001][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.06.07-07.51.39:018][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.06.07-07.51.39:035][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.06.07-07.51.39:051][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.06.07-07.51.39:068][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.07-07.51.39:085][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.06.07-07.51.39:096][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.07-07.51.39:142][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.07-07.51.39:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.06.07-07.51.39:143][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.06.07-07.51.39:146][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.06.07-07.51.39:174][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.06.07-07.51.39:174][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.06.07-07.51.39:193][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.06.07-07.51.39:193][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.06.07-07.51.39:203][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.06.07-07.51.39:213][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.07-07.51.39:223][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.06.07-07.51.39:234][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.06.07-07.51.39:267][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.06.07-07.51.39:267][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.06.07-07.51.39:267][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.07-07.51.39:290][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.07-07.51.39:442][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (D:/UE4Practice/IK2/Intermediate/Shaders/WorkingDirectory/1812/).
+[2020.06.07-07.51.39:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bear1/AppData/Local/Temp/UnrealShaderWorkingDir/1A7AADA548A5E984D35E50A2343F077A/'.
+[2020.06.07-07.51.39:452][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.07-07.51.39:452][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.07-07.51.39:452][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.07-07.51.40:299][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: Loaded boot cache 0.08s 84MB C:/Users/bear1/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bear1/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4Practice/IK2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4Practice/IK2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.07-07.51.40:377][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.07-07.51.40:389][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.07-07.51.40:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.07-07.51.40:390][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.07-07.51.40:391][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bear1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.07-07.51.40:391][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.07-07.51.40:391][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.07-07.51.40:420][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.07-07.51.40:423][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.07-07.51.40:424][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.07-07.51.40:520][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2020.06.07-07.51.40:914][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.07-07.51.41:135][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.07-07.51.41:135][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.07-07.51.41:135][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.07-07.51.41:135][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.07-07.51.41:135][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.07-07.51.41:146][  0]LogNetVersion: IK2 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4186048603)
+[2020.06.07-07.51.41:656][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041113 seconds
+[2020.06.07-07.51.41:664][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.06.07-07.51.41:664][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.06.07-07.51.41:664][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.07-07.51.43:158][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.07-07.51.43:161][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.07-07.51.43:447][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.07-07.51.43:447][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.07-07.51.43:449][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.07-07.51.43:451][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.07-07.51.43:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.07-07.51.43:843][  0]LogOcInput: OculusInput pre-init called
+[2020.06.07-07.51.43:855][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.07-07.51.43:855][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.07-07.51.43:957][  0]LogEngine: Initializing Engine...
+[2020.06.07-07.51.43:958][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.07-07.51.43:959][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.07-07.51.44:244][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.07-07.51.44:291][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.07-07.51.44:334][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.07-07.51.44:355][  0]LogInit: FAudioDevice initialized.
+[2020.06.07-07.51.44:355][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.07-07.51.44:553][  0]LogDerivedDataCache: Saved boot cache 0.20s 84MB C:/Users/bear1/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.07-07.51.44:558][  0]LogInit: Texture streaming: Enabled
+[2020.06.07-07.51.44:619][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.07-07.51.44:619][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={8A4987A8-41CD-1477-18A7-B19647A69749}
+[2020.06.07-07.51.44:619][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.07-07.51.44:628][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.07-07.51.44:705][  0]LogInit: Transaction tracking system initialized
+[2020.06.07-07.51.44:833][  0]BlueprintLog: New page: 에디터 로드
+[2020.06.07-07.51.45:097][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.06.07-07.51.45:517][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Practice/IK2/Content/' took 0.02s
+[2020.06.07-07.51.45:517][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.07-07.51.45:517][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.07-07.51.45:865][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.07-07.51.45:865][  0]Cmd: MAP LOAD FILE="D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.07-07.51.45:866][  0]LightingResults: New page: 라이팅 빌드
+[2020.06.07-07.51.45:874][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.51.45:875][  0]MapCheck: New page: 맵 체크
+[2020.06.07-07.51.45:875][  0]LightingResults: New page: 라이팅 빌드
+[2020.06.07-07.51.45:902][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.06.07-07.51.46:040][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.06.07-07.51.46:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.07-07.51.46:084][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.06.07-07.51.46:085][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.07-07.51.46:085][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.117ms.
+[2020.06.07-07.51.46:085][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.220
+[2020.06.07-07.51.46:198][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-07.51.46:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-07.51.46:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-07.51.46:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-07.51.46:262][  0]LogCollectionManager: Loaded 0 collections in 0.007943 seconds
+[2020.06.07-07.51.46:274][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Practice/IK2/Saved/Collections/' took 0.00s
+[2020.06.07-07.51.46:274][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Practice/IK2/Content/Developers/ACA/Collections/' took 0.00s
+[2020.06.07-07.51.46:274][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Practice/IK2/Content/Collections/' took 0.00s
+[2020.06.07-07.51.46:274][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.06.07-07.51.46:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2867 classes and 682 folders.
+[2020.06.07-07.51.46:303][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.07-07.51.46:421][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.07-07.51.46:436][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.06.07-07.51.46:554][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.07-07.51.46:558][  0]LogSlate: Took 0.001782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.06.07-07.51.46:560][  0]LogSlate: Took 0.001776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.06.07-07.51.46:560][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.07-07.51.46:565][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.07-07.51.46:640][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2020.06.07-07.51.46:810][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.07-07.51.46:810][  0]LogLoad: (Engine Initialization) Total time: 12.43 seconds
+[2020.06.07-07.51.46:811][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.07-07.51.46:879][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.07-07.51.46:909][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.07-07.51.46:950][  1]LogAssetRegistry: Asset discovery search completed in 6.4302 seconds
+[2020.06.07-07.51.46:955][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.06.07-07.51.46:955][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2020.06.07-07.51.48:273][  5]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.07-07.52.15:048][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.07-07.52.15:222][164]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Foot_L_Rot" 라는 이름의 변수를 찾을 수 없습니다.
+ Foot_L_Rot 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.52.15:223][164]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "IsInAir?" 라는 이름의 변수를 찾을 수 없습니다.
+ IsInAir? 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.52.15:223][164]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Speed" 라는 이름의 변수를 찾을 수 없습니다.
+ Speed 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.52.15:224][164]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "IsInAir?" 라는 이름의 변수를 찾을 수 없습니다.
+ IsInAir? 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.52.15:224][164]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Speed" 라는 이름의 변수를 찾을 수 없습니다.
+ Speed 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.52.15:225][164]LogBlueprint: Error: [Compiler ABP_Third] Speed  와 연관된 프로퍼티를 찾지 못했습니다.
+[2020.06.07-07.52.15:225][164]LogBlueprint: Error: [Compiler ABP_Third] Is in Air?  와 연관된 프로퍼티를 찾지 못했습니다.
+[2020.06.07-07.52.15:250][164]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-07.52.15:277][164]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.06.07-07.52.15:460][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.52.15:470][164]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2020.06.07-07.52.15:793][164]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.06.07-07.52.16:882][164]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.52.17:177][164]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.07-07.52.26:033][670]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.07-07.52.29:734][889]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.06.07-07.52.29:746][889]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.52.30:085][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.52.46:829][800]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={89CDCDFD-4620-937B-CECF-C682B67668E7}
+[2020.06.07-07.53.24:808][825]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-07.53.24:813][825]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Foot_L_Rot" 라는 이름의 변수를 찾을 수 없습니다.
+ Foot_L_Rot 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.53.24:814][825]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "IsInAir?" 라는 이름의 변수를 찾을 수 없습니다.
+ IsInAir? 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.53.24:814][825]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Speed" 라는 이름의 변수를 찾을 수 없습니다.
+ Speed 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.53.24:818][825]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "IsInAir?" 라는 이름의 변수를 찾을 수 없습니다.
+ IsInAir? 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.53.24:818][825]LogBlueprint: Warning: [Compiler ABP_Third] 'ABP_Third_C' 에서 "Speed" 라는 이름의 변수를 찾을 수 없습니다.
+ Speed 설정  에 대해 'ABP_Third_C' 컴파일이 되었는지 확인하세요.
+[2020.06.07-07.53.24:819][825]LogBlueprint: Error: [Compiler ABP_Third] Speed  와 연관된 프로퍼티를 찾지 못했습니다.
+[2020.06.07-07.53.24:819][825]LogBlueprint: Error: [Compiler ABP_Third] Is in Air?  와 연관된 프로퍼티를 찾지 못했습니다.
+[2020.06.07-07.53.25:069][825]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.06.07-07.53.25:475][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.53.25:530][845]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdC0AADE534112B5C589972DBBDDDE025E.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.53.58:086][295]LogSlate: Took 0.011520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.07-07.54.00:672][354]LogSlate: Window '변수 유형 변경' being destroyed
+[2020.06.07-07.54.04:389][518]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2020.06.07-07.54.04:397][518]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2020.06.07-07.54.23:666][498]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-07.54.23:924][498]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.06.07-07.54.25:344][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.54.25:401][561]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdC160E8454705C8ABFBB800B7A0C3CC26.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.54.34:942][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.54.34:990][ 29]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdEDABF4734786CD89997F65943D4E1F57.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.54.42:264][322]LogSlate: Window 'ThirdPerson_AnimBP' being destroyed
+[2020.06.07-07.54.42:284][322]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.42:288][322]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.42:380][322]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.44:391][410]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-07.54.44:408][410]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.44:411][410]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.44:497][410]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.54.46:839][570]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={8A4987A8-41CD-1477-18A7-B19647A69749}
+[2020.06.07-07.55.30:664][883]LogHotReload: New module detected: UE4Editor-IK2-0001-Win64-DebugGame.dll
+[2020.06.07-07.55.32:693][890]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-07.55.32:908][890]LogUObjectHash: Compacting FUObjectHashTables data took  24.82ms
+[2020.06.07-07.55.32:987][890]LogClass: IkAnimComponent HotReload.
+[2020.06.07-07.55.32:987][890]LogClass: IkTraceInfo HotReload.
+[2020.06.07-07.55.33:013][890]LogHotReload: Re-instancing IK2Character after hot-reload.
+[2020.06.07-07.55.33:823][890]LogContentBrowser: Native class hierarchy updated for 'IK2' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2020.06.07-07.55.33:828][890]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.06.07-07.55.33:998][890]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2020.06.07-07.55.34:033][890]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2869 classes and 686 folders.
+[2020.06.07-07.55.34:418][890]Display: HotReload took  1.7s.
+[2020.06.07-07.56.37:122][ 70]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.07-07.56.37:133][ 70]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.06.07-07.56.39:495][215]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-07.56.39:511][215]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.56.40:121][215]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.57.44:157][411]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-07.57.44:170][411]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.57.44:177][411]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.57.44:275][411]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.57.50:193][721]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-07.57.50:208][721]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.57.50:547][721]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.57.52:217][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.57.52:265][793]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third88CD48A24242BDF9BA15338CB201B3A4.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.57.52:265][793]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset', retrying in .5s...
+[2020.06.07-07.57.52:766][793]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'.
+[2020.06.07-07.57.52:766][793]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.57.58:635][793]LogSlate: Window '메시지' being destroyed
+[2020.06.07-07.57.58:640][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.57.58:692][793]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third448DC1BD47E5A99E936631BBB336B511.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.57.58:699][793]EditorErrors: New page: 출력 저장
+[2020.06.07-07.57.58:699][793]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset' 저장 오류입니다.
+[2020.06.07-07.58.00:240][891]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-07.58.00:245][891]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-07.58.01:465][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.58.01:512][971]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third4ABB1EB44038E031C5A220BBC755BE29.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.58.02:097][  9]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-07.58.02:109][  9]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.02:115][  9]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.02:210][  9]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.04:058][117]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/TP_AnimBP.TP_AnimBP
+[2020.06.07-07.58.04:071][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.58.04:407][117]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.58.05:661][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/TP_AnimBP" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/TP_AnimBP.uasset" SILENT=true
+[2020.06.07-07.58.05:718][173]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/TP_AnimBP3F21841A4979FD959F6F20ADD245DFAC.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/TP_AnimBP.uasset'
+[2020.06.07-07.58.06:213][203]LogSlate: Window 'TP_AnimBP' being destroyed
+[2020.06.07-07.58.06:227][203]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.06:233][203]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.06:325][203]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.07:092][251]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.06.07-07.58.07:106][251]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.58.07:442][251]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.58.08:607][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2020.06.07-07.58.08:668][304]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPerson_AnimBPE76CFAB24E2B96FEE16767809318B58A.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-07.58.08:668][304]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset', retrying in .5s...
+[2020.06.07-07.58.09:169][304]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'.
+[2020.06.07-07.58.09:169][304]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-07.58.10:701][304]LogSlate: Window '메시지' being destroyed
+[2020.06.07-07.58.10:709][304]EditorErrors: New page: 출력 저장
+[2020.06.07-07.58.10:709][304]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' 저장 오류입니다.
+[2020.06.07-07.58.11:585][304]LogSlate: Window '패키지 저장 실패' being destroyed
+[2020.06.07-07.58.13:095][404]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-07.58.13:101][404]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-07.58.13:733][445]LogSlate: Window 'ThirdPerson_AnimBP' being destroyed
+[2020.06.07-07.58.13:748][445]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.13:754][445]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.13:846][445]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.14:598][494]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-07.58.14:612][494]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-07.58.14:946][494]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-07.58.21:760][951]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-07.58.22:138][951]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.06.07-07.58.22:512][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.58.22:540][974]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third1D79AA474DE2812F720902AB99CEC5B9.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.58.33:499][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-07.58.33:521][466]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdEB5FE8FF49629914D7A85F97539E0122.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-07.58.33:926][495]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-07.58.33:946][495]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.33:951][495]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.34:042][495]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-07.58.39:487][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.06.07-07.59.47:521][234]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.07-07.59.49:937][234]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.07-07.59.51:630][234]LogSlate: Window '애니메이션 블루프린트 생성' being destroyed
+[2020.06.07-07.59.55:799][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPersonIdle" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset" SILENT=true
+[2020.06.07-07.59.55:814][509]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonIdle79A0632644832416FE410989571197D4.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2020.06.07-07.59.55:815][509]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset', retrying in .5s...
+[2020.06.07-07.59.56:316][509]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'.
+[2020.06.07-07.59.56:316][509]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2020.06.07-08.00.07:542][509]LogSlate: Window '메시지' being destroyed
+[2020.06.07-08.00.07:546][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPersonIdle" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset" SILENT=true
+[2020.06.07-08.00.07:555][509]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonIdle0B175E234762CC31B54A0CB4E0F079FA.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2020.06.07-08.00.07:555][509]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset', retrying in .5s...
+[2020.06.07-08.00.08:056][509]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'.
+[2020.06.07-08.00.08:056][509]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2020.06.07-08.00.09:018][509]LogSlate: Window '메시지' being destroyed
+[2020.06.07-08.00.09:025][509]EditorErrors: New page: 출력 저장
+[2020.06.07-08.00.09:025][509]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset' 저장 오류입니다.
+[2020.06.07-08.00.09:025][509]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPersonIdle.uasset' 저장 오류입니다.
+[2020.06.07-08.00.11:289][686]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.00.11:293][686]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.00.12:441][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap" FILE="D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.07-08.00.12:498][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.06.07-08.00.12:775][766]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonExampleMap180034A04FAAFEECA675029B81232001.tmp' to 'D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.06.07-08.00.12:793][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2020.06.07-08.00.12:994][766]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonExampleMap_BuiltData4EDA790E408CAD332E6101ABD05E0986.tmp' to 'D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.06.07-08.00.14:027][820]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/vvvvv.vvvvv
+[2020.06.07-08.00.14:041][820]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.00.14:371][820]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.00.15:596][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/vvvvv" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/vvvvv.uasset" SILENT=true
+[2020.06.07-08.00.15:611][887]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/vvvvv83E546C642637B64F9FA2B9018DCAFC7.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/vvvvv.uasset'
+[2020.06.07-08.00.16:613][961]LogSlate: Window 'vvvvv' being destroyed
+[2020.06.07-08.00.16:634][961]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.00.16:641][961]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.00.16:728][961]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.00.45:807][274]LogHotReload: New module detected: UE4Editor-IK2-0002-Win64-DebugGame.dll
+[2020.06.07-08.00.47:176][279]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-08.00.47:267][279]LogUObjectHash: Compacting FUObjectHashTables data took   7.90ms
+[2020.06.07-08.00.47:290][279]LogClass: IkAnimComponent HotReload.
+[2020.06.07-08.00.47:291][279]LogClass: IkTraceInfo HotReload.
+[2020.06.07-08.00.47:302][279]LogHotReload: Re-instancing IK2Character after hot-reload.
+[2020.06.07-08.00.47:870][279]LogContentBrowser: Native class hierarchy updated for 'IK2' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.06.07-08.00.47:874][279]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.06.07-08.00.48:024][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.06.07-08.00.48:052][279]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2869 classes and 686 folders.
+[2020.06.07-08.00.48:055][279]Display: HotReload took  0.9s.
+[2020.06.07-08.01.20:868][921]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2020.06.07-08.01.21:006][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.01.21:068][921]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.01.22:055][921]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.07-08.01.23:347][995]LogSlate: Window 'ThirdPerson_Jump' being destroyed
+[2020.06.07-08.01.23:355][995]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.23:376][995]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.23:454][995]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.24:626][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap" FILE="D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.07-08.01.24:750][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.06.07-08.01.25:021][ 65]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonExampleMap3D9C0F6C4A8376C20D7E1D9BB628F442.tmp' to 'D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.06.07-08.01.25:038][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2020.06.07-08.01.25:153][ 65]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPersonExampleMap_BuiltDataD977FE214E1DA928B11287A83EDABD3A.tmp' to 'D:/UE4Practice/IK2/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.06.07-08.01.26:330][130]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2020.06.07-08.01.26:330][130]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.07-08.01.26:358][130]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2020.06.07-08.01.26:366][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.01.26:398][130]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.01.26:772][130]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.07-08.01.27:519][176]LogWindowsDesktop: Alt-F4 pressed!
+[2020.06.07-08.01.27:520][176]LogSlate: Window 'ThirdPersonJump_End' being destroyed
+[2020.06.07-08.01.27:524][176]LogSlate: Window 'ThirdPersonJump_End' being destroyed
+[2020.06.07-08.01.27:525][176]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.27:542][176]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.27:592][176]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.28:035][197]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2020.06.07-08.01.28:043][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.01.28:075][197]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.01.28:421][197]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.07-08.01.28:841][221]LogWindowsDesktop: Alt-F4 pressed!
+[2020.06.07-08.01.28:842][221]LogSlate: Window 'ThirdPersonJump_Loop' being destroyed
+[2020.06.07-08.01.28:846][221]LogSlate: Window 'ThirdPersonJump_Loop' being destroyed
+[2020.06.07-08.01.28:847][221]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.28:863][221]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.28:915][221]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.01.31:853][354]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-08.01.31:866][354]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.01.32:442][354]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.01.39:068][757]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.06.07-08.01.39:081][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.01.39:420][757]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.01.48:492][303]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.01.48:864][303]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2020.06.07-08.01.49:266][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.01.49:323][328]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third7B4056DE46CD530A627BF29C494D3F22.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.01.58:804][873]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.01.59:048][873]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2020.06.07-08.01.59:520][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.01.59:572][900]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdE3ECA577477FE115B5D6F18C3927778C.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.02.00:760][979]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.00:763][979]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.00:856][979]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.06:955][422]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-08.02.06:974][422]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.06:977][422]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.07:070][422]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.09:423][588]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-08.02.09:436][588]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.02.09:777][588]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.02.10:661][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.02.10:706][625]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third1D99807D4A67221293679485368505D4.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.02.11:445][674]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-08.02.11:459][674]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.11:462][674]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.11:555][674]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.02.13:388][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.06.07-08.02.44:661][331]LogHotReload: New module detected: UE4Editor-IK2-0003-Win64-DebugGame.dll
+[2020.06.07-08.02.46:023][336]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-08.02.46:069][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.06.07-08.02.46:561][336]LogClass: IkAnimComponent HotReload.
+[2020.06.07-08.02.46:561][336]LogClass: IkTraceInfo HotReload.
+[2020.06.07-08.02.46:577][336]LogHotReload: Re-instancing IK2Character after hot-reload.
+[2020.06.07-08.02.47:336][336]LogContentBrowser: Native class hierarchy updated for 'IK2' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.06.07-08.02.47:349][336]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.06.07-08.02.48:398][336]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.06.07-08.02.48:427][336]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2869 classes and 686 folders.
+[2020.06.07-08.02.48:431][336]Display: HotReload took  2.4s.
+[2020.06.07-08.09.32:286][782]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ABP_Third.ABP_Third
+[2020.06.07-08.09.32:302][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.09.32:759][782]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.09.37:581][ 37]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.06.07-08.09.37:596][ 37]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.09.37:941][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.10.00:394][499]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.10.00:401][499]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.10.00:498][499]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.10.09:107][ 61]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.10.09:482][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2020.06.07-08.10.09:977][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.10.10:033][ 94]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_ThirdCD3CE121415F399726D41CB4AD5F14AD.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.10.13:697][260]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.06.07-08.10.13:709][260]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.07-08.10.14:037][260]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.07-08.10.15:830][353]BlueprintLog: New page: ThirdPerson_AnimBP 컴파일
+[2020.06.07-08.10.16:161][353]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.06.07-08.10.16:602][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2020.06.07-08.10.16:674][377]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPerson_AnimBP9125436A48BF9D397E57AC80E1FB1A0A.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.10.16:674][377]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset', retrying in .5s...
+[2020.06.07-08.10.17:176][377]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'.
+[2020.06.07-08.10.17:176][377]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.10.18:473][377]LogSlate: Window '메시지' being destroyed
+[2020.06.07-08.10.18:477][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2020.06.07-08.10.18:531][377]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPerson_AnimBP3AC63D2D4478F788959742B3F11C2C9E.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.10.18:532][377]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset', retrying in .5s...
+[2020.06.07-08.10.19:033][377]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'.
+[2020.06.07-08.10.19:033][377]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.10.20:317][377]LogSlate: Window '메시지' being destroyed
+[2020.06.07-08.10.20:325][377]EditorErrors: New page: 출력 저장
+[2020.06.07-08.10.20:325][377]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' 저장 오류입니다.
+[2020.06.07-08.10.20:325][377]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' 저장 오류입니다.
+[2020.06.07-08.10.21:560][456]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.10.21:566][456]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.10.40:166][701]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.10.40:443][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.06.07-08.10.40:916][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.10.40:970][729]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third6FEF5E19418109584CB7DC9A3E95AB63.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.11.27:766][927]LogUObjectHash: Compacting FUObjectHashTables data took   8.36ms
+[2020.06.07-08.11.27:766][927]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.058
+[2020.06.07-08.11.27:768][927]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2020.06.07-08.11.27:768][927]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2020.06.07-08.11.27:838][927]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPerson_AnimBP_Auto1E75A129748EEEBA1394994A05EEE8AFD.tmp' to 'D:/UE4Practice/IK2/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset'
+[2020.06.07-08.11.27:840][927]LogFileHelpers: Auto-saving content packages took 0.072
+[2020.06.07-08.12.57:206][259]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.12.57:459][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.06.07-08.12.57:852][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.12.57:923][284]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third54DF14AD439948C26987D9A1721AD8A7.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.13.44:992][414]BlueprintLog: New page: ABP_Third 컴파일
+[2020.06.07-08.13.45:247][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.06.07-08.13.46:248][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ABP_Third" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset" SILENT=true
+[2020.06.07-08.13.46:306][476]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ABP_Third16A03D3D4FB7D0B7BAA86ABCC57EC0AE.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ABP_Third.uasset'
+[2020.06.07-08.15.52:155][617]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.52:160][617]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.52:266][617]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.53:535][704]LogSlate: Window 'ABP_Third' being destroyed
+[2020.06.07-08.15.53:555][704]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.53:559][704]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.53:658][704]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-08.15.54:635][814]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.06.07-08.15.56:106][814]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.07-08.15.56:132][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2020.06.07-08.15.56:208][814]LogSavePackage: Moving 'D:/UE4Practice/IK2/Saved/ThirdPerson_AnimBP9A23890C4EA66E13BAAC4AB0B39FB627.tmp' to 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.15.56:208][814]LogFileManager: Warning: DeleteFile was unable to delete 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset', retrying in .5s...
+[2020.06.07-08.15.56:709][814]LogFileManager: Error: Error deleting file 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'.
+[2020.06.07-08.15.56:709][814]LogSavePackage: Error: Error saving 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.06.07-08.15.58:103][814]LogSlate: Window '메시지' being destroyed
+[2020.06.07-08.15.58:110][814]EditorErrors: New page: 출력 저장
+[2020.06.07-08.15.58:110][814]EditorErrors: Warning: 'D:/UE4Practice/IK2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' 저장 오류입니다.
+[2020.06.07-08.15.59:417][947]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.15.59:421][947]LogSlate: Window '메시지 로그' being destroyed
+[2020.06.07-08.16.03:590][ 97]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.07-08.16.03:701][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.06.07-08.16.03:722][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.07-08.16.03:755][ 97]PIE: New page: PIE 세션: ThirdPersonExampleMap (2020. 6. 8. 오전 2:16:03)
+[2020.06.07-08.16.03:778][ 97]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.07-08.16.03:793][ 97]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.06.07-08.16.03:813][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018835s)
+[2020.06.07-08.16.03:815][ 97]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.06.07-08.16.03:828][ 97]LogPlayLevel: PIE: World Init took: (0.014894s)
+[2020.06.07-08.16.03:828][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034222s)
+[2020.06.07-08.16.03:859][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.06.07-08.16.03:906][ 97]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.07-08.16.03:919][ 97]LogInit: FAudioDevice initialized.
+[2020.06.07-08.16.04:041][ 97]LogLoad: Game class is 'IK2GameMode'
+[2020.06.07-08.16.04:051][ 97]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.06.07-17.16.04
+[2020.06.07-08.16.04:068][ 97]LogWorld: Bringing up level for play took: 0.026049
+[2020.06.07-08.16.04:077][ 97]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.06.07-08.16.04:343][ 97]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.06.07-08.16.04:353][ 97]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.504
+[2020.06.07-08.16.04:353][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.06.07-08.17.20:649][981]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.06.07-08.17.21:151][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.06.07-08.17.21:651][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.06.07-08.17.22:151][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.06.07-08.17.27:152][982]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2020.06.07-08.17.32:152][982]LogD3D11RHI: GetQueryData is taking a very long time (10.0 s)
+[2020.06.07-08.17.37:152][982]LogD3D11RHI: GetQueryData is taking a very long time (15.0 s)
+[2020.06.07-08.17.42:152][982]LogD3D11RHI: GetQueryData is taking a very long time (20.0 s)
+[2020.06.07-08.17.47:151][982]LogD3D11RHI: GetQueryData is taking a very long time (25.0 s)
+[2020.06.07-08.17.52:180][982]LogD3D11RHI: GetQueryData is taking a very long time (30.0 s)
+[2020.06.07-08.17.52:182][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (30.0 s) (ErrorCode 00000001)
+[2020.06.07-08.17.52:182][982]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2020.06.07-08.17.59:171][982]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.07-08.17.59:171][982]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2020.06.07-08.17.59:171][982]LogWindows: Error: === Critical error: ===
+[2020.06.07-08.17.59:171][982]LogWindows: Error: 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 836] 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: Rendering thread exception:
+[2020.06.07-08.17.59:171][982]LogWindows: Error: Assertion failed: GD3D11RHI->GetQueryData(Query->Resource, &Query->Result, sizeof(Query->Result), Query->QueryType, true, false) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp] [Line: 45] 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: 
+[2020.06.07-08.17.59:171][982]LogWindows: Error: [Callstack] 0x00007ff8523aa799 KERNELBASE.dll!UnknownFunction []
+[2020.06.07-08.17.59:171][982]LogWindows: Error: [Callstack] 0x00007ffff020a367 UE4Editor-Core.dll!ReportAssert() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowsplatformcrashcontext.cpp:582]
+[2020.06.07-08.17.59:171][982]LogWindows: Error: [Callstack] 0x00007ffff020cbc4 UE4Editor-Core.dll!FWindowsErrorOutputDevice::Serialize() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowserroroutputdevice.cpp:79]
+[2020.06.07-08.17.59:171][982]LogWindows: Error: [Callstack] 0x00007ffff0001ada UE4Editor-Core.dll!FOutputDevice::LogfImpl() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:71]
+[2020.06.07-08.17.59:171][982]LogWindows: Error: [Callstack] 0x00007fffeff567a3 UE4Editor-Core.dll!AssertFailedImplV() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:101]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffeff56eb0 UE4Editor-Core.dll!FDebug::CheckVerifyFailedImpl() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:445]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffe419fccd UE4Editor-D3D11RHI.dll!FD3D11RenderQueryBatcher::PerFrameFlush() [d:\build\++ue4\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11query.cpp:45]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffe41af6f9 UE4Editor-D3D11RHI.dll!FD3D11DynamicRHI::RHIPerFrameRHIFlushComplete() [d:\build\++ue4\sync\engine\source\runtime\windows\d3d11rhi\private\windows\windowsd3d11device.cpp:1782]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ff834c5caf7 UE4Editor-RHI.dll!FRHIResource::FlushPendingDeletes() [d:\build\++ue4\sync\engine\source\runtime\rhi\private\rhi.cpp:314]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffe5f4a060 UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::Render() [d:\build\++ue4\sync\engine\source\runtime\renderer\private\deferredshadingrenderer.cpp:969]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffe63d2449 UE4Editor-Renderer.dll!RenderViewFamily_RenderThread() [d:\build\++ue4\sync\engine\source\runtime\renderer\private\scenerendering.cpp:3242]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffe63ae4c1 UE4Editor-Renderer.dll!TGraphTask<TEnqueueUniqueRenderCommandType<`FRendererModule::BeginRenderingViewFamily'::`27'::FDrawSceneCommandName,<lambda_98974a148448e2faeb6b39d7ee44228d> > >::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:847]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffefdd4e4a UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:686]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007fffefdd51f3 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:583]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ff82ae60021 UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:340]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ff82ae685b4 UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:471]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ffff0229f5f UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:96]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ffff02204b1 UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:53]
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ff854877bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.07-08.17.59:172][982]LogWindows: Error: [Callstack] 0x00007ff85532ce51 ntdll.dll!UnknownFunction []
+[2020.06.07-08.17.59:172][982]LogWindows: Error: 
+[2020.06.07-08.17.59:172][982]LogWindows: Error: 
+[2020.06.07-08.17.59:172][982]LogWindows: Error: 
+[2020.06.07-08.17.59:172][982]LogWindows: Error: 
+[2020.06.07-08.17.59:179][982]LogExit: Executing StaticShutdownAfterError
+[2020.06.07-08.17.59:190][982]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.06.07-08.17.59:226][982]Log file closed, 06/07/20 17:17:59

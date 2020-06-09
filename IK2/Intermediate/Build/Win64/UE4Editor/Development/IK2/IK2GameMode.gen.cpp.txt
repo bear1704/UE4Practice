@@ -1,9 +1,9 @@
-D:\SC\UE4Practice\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
+D:\UE4Practice\IK2\Intermediate\Build\Win64\UE4Editor\Development\IK2\Definitions.IK2.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\SC\UE4Practice\UE4Practice\IK2\Source\IK2/IK2GameMode.h
+D:\UE4Practice\IK2\Source\IK2/IK2GameMode.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-d:\sc\ue4practice\ue4practice\ik2\intermediate\build\win64\ue4editor\inc\ik2\IK2GameMode.generated.h
+d:\ue4practice\ik2\intermediate\build\win64\ue4editor\inc\ik2\IK2GameMode.generated.h
