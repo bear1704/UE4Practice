@@ -25,19 +25,22 @@ struct FIkAnimComponent
 {
 	GENERATED_BODY()
 
-	USTRUCT(EditAnywhere, BlueprintReadWrite)
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FRotator CurrentLeftFootRotation;
-	USTRUCT(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FRotator CurrentRightFootRotation;
-	USTRUCT(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float FeetRotateInterpolationSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float HipOffset; //계산된 HipOffset을 직접 Blueprint에서 적용하기 위함.
 
 
 	FIkAnimComponent()
 	{
 		CurrentLeftFootRotation = FRotator(0.0f, 0.0f, 0.0f);
 		CurrentRightFootRotation = FRotator(0.0f, 0.0f, 0.0f);
-		FeetRotateInterpolationSpeed = 5.0f;
+		FeetRotateInterpolationSpeed = 30.0f;
 	}
 };
 
@@ -69,6 +72,10 @@ public:
 		FName RightFootSocketName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "IK")
 		FIkAnimComponent AnimComp;
+	UPROPERTY(EditAnywhere, Category = "IK")
+		FIkTraceInfo LeftFootTraceInfo;
+	UPROPERTY(EditAnywhere, Category = "IK")
+		FIkTraceInfo RightFootTraceInfo;
 
 protected:
 	// Called when the game starts
@@ -82,7 +89,15 @@ public:
 	FIkTraceInfo IK_FootTrace(float TraceDistance, FName FootSocketName);
 	FRotator NormalToRotator(FVector& Norm);
 	void IK_UpdateAnkleRotation(float DeltaTime, FRotator TargetRotater, FRotator* CurrentRotator, float InterpSpeed);
+	/*계단 등을 오르내릴 때, 발의 위치를 맞추면 Capsule의 머리 공간이 남는다.(발 부위엔 캡슐이 안 닿는다) 그를 보정하기 위해 크기를 좀 줄여준다*/
+	void IK_UpdateCapsuleHalfHeight(float deltaTime, float HipsOffset, bool bResetDefault);
+	/*계단 등을 오르내릴 때, 몸통의 위치를 계단에 맞게 맞춰준다. currentValue는 현재 hipoffset값(위치보정값), 실제 변경은 blueprint에서
+	이로 인해, Pelvis(Hip) 위치가 내려간다.(캡슐은 그위치 그대로기 때문에-크기만작아짐   캡슐에서 발만 삐져나온다)*/
+	void IK_UpdateHipOffset(float DeltaTime, float TargetValue, float* CurrentValue, float InterpSpeed);
 	
+
+public:
+	FORCEINLINE FIkAnimComponent GetAnimCompValue() { return AnimComp; }
 
 		
 };

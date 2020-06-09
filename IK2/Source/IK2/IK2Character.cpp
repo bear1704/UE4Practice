@@ -125,7 +125,11 @@ void AIK2Character::BeginPlay()
 	Super::BeginPlay();
 	GetMesh()->SetAnimInstanceClass(AnimInstance);
 	MyAnimInstance = Cast<UIK2AnimInstance>(GetMesh()->GetAnimInstance());
-	
+	MyAnimInstance->SetCharacter(this);
+	GetCapsuleComponent()->bHiddenInGame = false;
+	GetCapsuleComponent()->bVisible = true;
+
+
 }
 
 void AIK2Character::Tick(float DeltaSeconds)
